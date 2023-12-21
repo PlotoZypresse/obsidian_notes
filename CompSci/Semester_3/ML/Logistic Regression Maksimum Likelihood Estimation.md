@@ -1,0 +1,5 @@
+1. **Definition**: MLE is a statistical method used for estimating the parameters of a model. In the context of logistic regression, MLE is used to find the parameters (weights) that maximize the likelihood of observing the given data.
+2. **Likelihood Function**: For logistic regression, the likelihood function measures how probable the observed outcomes are, given the parameters of the model. If $P(y_i∣x_i;θ)$ is the probability of observing the outcome $y_i$ given the features xixi​ and parameters θθ, the likelihood for all observations is $L(θ)=∏i=1nP(y_i∣x_i;θ)$
+3. **Maximizing the Likelihood**: The goal is to find the parameter values that maximize this likelihood. In logistic regression, this is often done through optimization algorithms like gradient descent.
+4. **Intuition**: By maximizing the likelihood, we are effectively tuning the parameters of the logistic regression model so that the predicted probabilities closely match the actual class labels in the training data.
+[[Logistic Regression]] 
