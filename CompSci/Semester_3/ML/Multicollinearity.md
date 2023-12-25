@@ -20,3 +20,6 @@
 Imagine you are analyzing data on house prices. You have two variables: the number of bedrooms and the number of sleeping rooms. These two are likely to be highly correlated (as bedrooms are a subset of sleeping rooms), which could lead to multicollinearity in your regression model.
 
 Multicollinearity is a common issue in real-world data analysis, especially in fields like economics, finance, and social sciences, where many variables can be interrelated. It's crucial to check for and address multicollinearity to ensure the reliability and interpretability of a regression model.
+
+---
+#reviewML

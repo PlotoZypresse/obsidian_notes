@@ -5,3 +5,6 @@ Specificity tells you what percentage of the data is correctly predicted negativ
 Choosing which metric to use depends on the if it is important to correctly identify positive or correctly identify negative
 
 ![[Screenshot 2023-12-19 at 12.55.07.png]]
+
+---
+#reviewML

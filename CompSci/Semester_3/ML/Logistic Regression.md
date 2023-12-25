@@ -23,3 +23,6 @@ Logistic Regression is primarily used for [[Classification]], explecitly for bin
 - Used in machine learning for binary classification tasks like credit scoring, predicting customer churn, fraud detection, and many others.
 
 Logistic regression is a fundamental algorithm in the machine learning toolkit, known for its simplicity and effectiveness in binary classification tasks. It's a go-to method for problems where the outcome is binary and the relationship between the variables is approximately linear.
+
+---
+#reviewML

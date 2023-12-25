@@ -1,2 +1,5 @@
 Multiplying [[Unsigned Integers]] is pretty easy. We generate partial product for each bit in the multiplier. these partial product are then summed for the final product. for example if the first bit in the multiplier is a 1 the partial product is the Multiplicand and shift one to the left(Look at picture). If the second bit for example is 0 we the partial product is 0. this is done for every bit in the multiplier. In the end all of the partial products are summed. The multiplication of two n-bit binary numbers results in a product of size $2n$ bits in length
 ![[Screenshot 2023-12-20 at 13.53.32.png]]![[Screenshot 2023-12-20 at 13.55.42.png]]
+
+---
+#review

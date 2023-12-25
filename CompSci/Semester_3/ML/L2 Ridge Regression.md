@@ -1,5 +1,11 @@
+---
+sr-due: 2023-12-26
+sr-interval: 1
+sr-ease: 230
+---
+
 #### Overview
-- Ridge Regression, also known as L2 regularization, is a technique used for analyzing multiple regression data when multicollinearity is present.
+- Ridge Regression, also known as L2 regularization, is a technique used for analyzing multiple regression data when [[multicollinearity]] is present.
 - It adds a degree of bias to the regression estimates, which reduces the standard errors.
 
 #### Mathematical Formulation
@@ -13,7 +19,7 @@
 #### Key Points
 - The primary purpose of the ridge regression is to prevent [[Over and Underfitting|overfitting]].
 - The tuning parameter, \(\lambda\), controls the strength of the penalty; \(\lambda = 0\) leads to the least squares regression.
-- As \(\lambda\) increases, bias increases but variance decreases.
+- As \(\lambda\) increases, [[Bias and Variance|bias]] increases but [[Bias and Variance|variance]] decreases.
 - It's essential to standardize predictors before applying ridge regression.
 
 #### Advantages
@@ -31,3 +37,5 @@
 #### Applications
 - Ridge regression is widely used in the field of machine learning, especially when dealing with data where multicollinearity is an issue.
 - It is also used in scenarios where the number of parameters is more than the number of samples.
+---
+#reviewML

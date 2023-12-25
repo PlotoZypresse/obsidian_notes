@@ -3,3 +3,6 @@
 3. **Maximizing the Likelihood**: The goal is to find the parameter values that maximize this likelihood. In logistic regression, this is often done through optimization algorithms like gradient descent.
 4. **Intuition**: By maximizing the likelihood, we are effectively tuning the parameters of the logistic regression model so that the predicted probabilities closely match the actual class labels in the training data.
 [[Logistic Regression]] 
+
+---
+#reviewML

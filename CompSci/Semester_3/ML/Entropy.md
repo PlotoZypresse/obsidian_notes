@@ -24,3 +24,5 @@
   I(X; Y) = H(X) + H(Y) - H(X, Y)
   $$
 - It's particularly helpful in feature selection for identifying features that carry the most information about the response variable.
+---
+#reviewML

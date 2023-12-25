@@ -23,3 +23,6 @@
 - **[[Multivariate Analysis]]:** For more complex scenarios involving multiple independent variables, multivariate linear regression is used.
 
 In summary, linear regression is a powerful tool for understanding relationships between variables and making predictions. However, its effectiveness depends on the appropriateness of the model for the data and the context of the study.
+
+---
+#reviewML

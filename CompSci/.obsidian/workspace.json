@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester_3/ML/Classification/Decision Trees.md",
+                "file": "Semester_3/CompArch/Twos Complement Addition.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9da9c7486719316c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Semester_3/CompArch/Division Unsigned integers.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#review",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester_3/ML/Classification/Decision Trees.md",
+                "file": "Semester_3/CompArch/Division Unsigned integers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semester_3/ML/Classification/Decision Trees.md",
+                "file": "Semester_3/CompArch/Division Unsigned integers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,15 +138,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semester_3/ML/Classification/Decision Trees.md"
+                "file": "Semester_3/CompArch/Division Unsigned integers.md"
               }
             }
+          },
+          {
+            "id": "01b5f18faf937eb6",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 229.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -143,38 +165,43 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "9ce073dc93a45ff7",
+  "active": "9da9c7486719316c",
   "lastOpenFiles": [
-    "Semester_3/ML/Classification/K-Means.md",
-    "Semester_3/ML/Classification/K-Nearest Neighbors (KNN).md",
-    "Semester_3/ML/Classification/Multiclass Classification.md",
-    "Semester_3/ML/Classification/Neural Networks.md",
-    "Semester_3/ML/Classification/Supervised Learning.md",
+    "Semester_3/CompArch/Twos Complement Subtraction.md",
+    "Semester_3/CompArch/Unsigned Integers.md",
     "Semester_3/ML/Classification/Classification.md",
-    "Semester_3/ML/Classification/Unsupervised Learning.md",
-    "Semester_3/ML/Videos for JupyterNotebooks.md",
-    "Semester_3/ML/Bias and Variance.md",
-    "Semester_3/ML/Cross Validation.md",
-    "Semester_3/ML/Classification/Decision Trees.md",
-    "Semester_3/ML/Elastic-Net Regression.md",
-    "Semester_3/ML/Entropy.md",
-    "Semester_3/ML/Gradien Descent.md",
-    "Semester_3/ML/Classification",
-    "Semester_3/ML/Classification/Binary Classification.md",
-    "Semester_3/ML/Classification/Support Vector Machines (SVMs).md",
-    "Confusion Matrix**.md",
     "Semester_3/ML/Mutual Information.md",
+    "Semester_3/ML/L2 Ridge Regression.md",
+    "Semester_3/ML/Over and Underfitting.md",
+    "Semester_3/ML/Multicollinearity.md",
+    "Semester_3/ML/Elastic-Net Regression.md",
+    "Semester_3/ML/Videos for JupyterNotebooks.md",
+    "Semester_3/ML/Sums of Squares.md",
+    "Semester_3/ML/Sensitivity and Specificity.md",
+    "Semester_3/ML/ROC and AUC.md",
     "Semester_3/ML/PCA.md",
-    "Semester_3/ML/L1 Lasso Regression.md",
+    "Semester_3/ML/Multivariate Analysis.md",
     "Semester_3/ML/Logistic Regression R squared and p-value.md",
     "Semester_3/ML/Logistic Regression Maksimum Likelihood Estimation.md",
-    "Semester_3/ML/Multicollinearity.md",
     "Semester_3/ML/Logistic Regression Coefficients.md",
     "Semester_3/ML/Logistic Regression.md",
-    "Semester_3/ML/Sums of Squares.md",
+    "Semester_3/ML/Linear Regression.md",
+    "Semester_3/ML/Least Squares.md",
+    "Semester_3/ML/L1 Lasso Regression.md",
+    "Semester_3/ML/Gradien Descent.md",
+    "Semester_3/ML/Entropy.md",
+    "Semester_3/ML/Cross Validation.md",
+    "Semester_3/ML/Bias and Variance.md",
+    "Semester_3/ML/Classification/Unsupervised Learning.md",
+    "Semester_3/CompArch/assets/Screenshot 2023-12-23 at 12.27.14.png",
+    "Semester_3/CompArch/assets/Screenshot 2023-12-23 at 12.25.44.png",
+    "Semester_3/CompArch/assets/Screenshot 2023-12-23 at 11.26.33.png",
+    "Semester_3/CompArch/assets/Screenshot 2023-12-23 at 11.16.19.png",
+    "Semester_3/ML/Classification",
     "Semester_3/CompArch/assets/Screenshot 2023-12-20 at 13.55.42.png",
     "Semester_3",
     "Semester_3/CompArch/assets/Screenshot 2023-12-20 at 13.53.32.png",
@@ -182,10 +209,6 @@
     "Semester_3/CompArch/assets/Screenshot 2023-12-20 at 13.30.38.png",
     "Semester_3/CompArch/assets/Screenshot 2023-12-20 at 13.31.17.png",
     "Semester_3/CompArch/assets/Screenshot 2023-12-20 at 13.19.32.png",
-    "Semester_3/CompArch/assets/Screenshot 2023-12-20 at 13.15.19.png",
-    "Semester_3/CompArch/assets/Screenshot 2023-12-20 at 13.04.40.png",
-    "Semester_3/CompArch/assets/Image.png",
-    "Semester_3/CompArch/assets/Image_png_preview.png",
     "Untitled.canvas",
     "Semester_3/ML/assets",
     "Semester_3/ML",

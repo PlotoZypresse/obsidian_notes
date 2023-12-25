@@ -7,3 +7,5 @@ AUC or area under curve can be used to compare different methods and to find the
 - An AUC of 1.0 represents a perfect classifier; it perfectly separates the two classes.
 - An AUC of 0.5 suggests no discriminative power, equivalent to random guessing.
 - The closer the AUC to 1, the better the classifier is at predicting true positives and true negatives.![[Screenshot 2023-12-19 at 15.58.41.png]]
+---
+#reviewML

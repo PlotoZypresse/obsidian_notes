@@ -13,3 +13,7 @@ In machine learning, the concept of "sum of squares" often comes into play, part
 5. **Beyond Linear Models**: While prominently used in linear regression, the concept of minimizing the sum of squares extends to many other types of models and algorithms in machine learning, including neural networks, where it can be used as a loss function (e.g., mean squared error loss).
 
 In summary, the sum of squares in machine learning is a fundamental concept used primarily for model fitting, evaluation, and optimization, signifying the deviation of predicted values from actual values and thereby guiding the improvement of models.
+
+
+---
+#reviewML

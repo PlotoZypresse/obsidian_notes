@@ -1,3 +1,9 @@
+---
+sr-due: 2023-12-26
+sr-interval: 1
+sr-ease: 230
+---
+
 Classification in machine learning is a type of supervised learning approach where the goal is to predict the categorical class labels of new instances, based on past observations. Here's a more detailed explanation:
 
 ### What is Supervised Learning?
@@ -38,3 +44,7 @@ Classification in machine learning is a type of supervised learning approach whe
    - **Customer Segmentation**: Categorizing customers based on purchasing behavior.
 
 Classification is a fundamental aspect of machine learning and is widely applicable across various domains, from healthcare to finance, marketing, and beyond.
+
+
+---
+#reviewML

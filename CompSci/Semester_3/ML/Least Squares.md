@@ -12,3 +12,6 @@ Least Squares is a fundamental method in statistics and machine learning, partic
 - **Linear Model**: In the case of linear regression, the model is a linear function of the form $y=β0+β1xy=β0​+β1​x$
 - **Least Squares Solution**: The least squares method computes the best values of $β0$ and $β1$​ such that the line $y=β0+β1xy=β0​+β1​x$ minimizes the sum of squared differences between the actual and predicted values of $y$.
 
+---
+#reviewML
+

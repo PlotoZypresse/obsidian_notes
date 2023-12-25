@@ -12,3 +12,6 @@ Confusion Matrices can be used to test different algorithms against each other t
 Using [[Sensitivity and Specificity]] and the confusion matrix we can find out which algorithm is the most accurate
 
 ![[Screenshot 2023-12-19 at 12.39.53.png]]
+
+---
+#reviewML 

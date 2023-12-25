@@ -39,3 +39,6 @@ Cross-validation is a statistical method used to estimate the skill of machine l
 - Cross-validation can be applied to any model where the validity of the results depends on the representativeness of the training set.
 
 In practice, the choice of the number of folds in k-fold cross-validation is often 5 or 10, as these values have been shown to produce testing that neither underestimates nor overestimates the rate of error. However, this choice can depend on the size of the dataset and the nature of the modeling task.
+
+---
+#reviewML
