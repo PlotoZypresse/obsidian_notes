@@ -13,19 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester_3/CompArch/Twos Complement Addition.md",
+                "file": "Semester_3/CompArch/Twos Complement.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9da9c7486719316c",
+            "id": "d5db2568d084c44b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester_3/CompArch/Division Unsigned integers.md",
+                "file": "Semester_3/CompArch/Karnaugh Maps (K-maps).md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester_3/CompArch/Division Unsigned integers.md",
+                "file": "Semester_3/CompArch/Karnaugh Maps (K-maps).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semester_3/CompArch/Division Unsigned integers.md",
+                "file": "Semester_3/CompArch/Karnaugh Maps (K-maps).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semester_3/CompArch/Division Unsigned integers.md"
+                "file": "Semester_3/CompArch/Karnaugh Maps (K-maps).md"
               }
             }
           },
@@ -169,34 +169,37 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "9da9c7486719316c",
+  "active": "d5db2568d084c44b",
   "lastOpenFiles": [
+    "Semester_3/CompArch/Boolean Algebra.md",
+    "Semester_3/CompArch/Multiplication Twos Complement.md",
+    "Semester_3/CompArch/Booths Algorithm.md",
+    "Semester_3/CompArch/Multiplication Unsigned integers.md",
+    "Semester_3/CompArch/Division Twos Complement.md",
+    "Semester_3/EksamenPlan/Eksamens toDo.md",
+    "Semester_3/CompArch/Division Unsigned integers.md",
+    "Semester_3/CompArch/Twos Complement conversion and negation.md",
+    "Semester_3/CompArch/assets/Commented.pdf",
     "Semester_3/CompArch/Twos Complement Subtraction.md",
     "Semester_3/CompArch/Unsigned Integers.md",
-    "Semester_3/ML/Classification/Classification.md",
-    "Semester_3/ML/Mutual Information.md",
-    "Semester_3/ML/L2 Ridge Regression.md",
-    "Semester_3/ML/Over and Underfitting.md",
-    "Semester_3/ML/Multicollinearity.md",
-    "Semester_3/ML/Elastic-Net Regression.md",
-    "Semester_3/ML/Videos for JupyterNotebooks.md",
-    "Semester_3/ML/Sums of Squares.md",
-    "Semester_3/ML/Sensitivity and Specificity.md",
-    "Semester_3/ML/ROC and AUC.md",
-    "Semester_3/ML/PCA.md",
-    "Semester_3/ML/Multivariate Analysis.md",
-    "Semester_3/ML/Logistic Regression R squared and p-value.md",
-    "Semester_3/ML/Logistic Regression Maksimum Likelihood Estimation.md",
-    "Semester_3/ML/Logistic Regression Coefficients.md",
-    "Semester_3/ML/Logistic Regression.md",
-    "Semester_3/ML/Linear Regression.md",
-    "Semester_3/ML/Least Squares.md",
-    "Semester_3/ML/L1 Lasso Regression.md",
-    "Semester_3/ML/Gradien Descent.md",
-    "Semester_3/ML/Entropy.md",
-    "Semester_3/ML/Cross Validation.md",
-    "Semester_3/ML/Bias and Variance.md",
-    "Semester_3/ML/Classification/Unsupervised Learning.md",
+    "Semester_3/CompArch/Twos Complement Addition.md",
+    "Semester_3/CompArch/Twos Complement.md",
+    "Semester_3/CompArch/Sum of Products(SOP).md",
+    "Semester_3/CompArch/Quine-McCluskey Methode.md",
+    "Semester_3/CompArch/Product of sum(POS).md",
+    "Semester_3/CompArch/Overflow.md",
+    "Semester_3/CompArch/Karnaugh Maps (K-maps).md",
+    "Semester_3/CompArch/Gates.md",
+    "Semester_3/CompArch/Digital Logic.md",
+    "Semester_3/CompArch/Binary To Decimal.md",
+    "Semester_3/CompArch/Binary Numbers.md",
+    "Semester_3/CompArch/Addition Unsigned Integers.md",
+    "Semester_3/CompArch/Subtraction Unsigned Integers.md",
+    "Semester_3/CompArch/Sign-Magnitude Representation.md",
+    "Semester_3/CompArch/Range extension.md",
+    "Semester_3/CompArch/assets/Screenshot 2023-12-29 at 16.10.41.png",
+    "Semester_3/CompArch/assets/Screenshot 2023-12-25 at 14.37.34.png",
+    "Semester_3/CompArch/assets/Screenshot 2023-12-25 at 14.36.07.png",
     "Semester_3/CompArch/assets/Screenshot 2023-12-23 at 12.27.14.png",
     "Semester_3/CompArch/assets/Screenshot 2023-12-23 at 12.25.44.png",
     "Semester_3/CompArch/assets/Screenshot 2023-12-23 at 11.26.33.png",
@@ -206,9 +209,6 @@
     "Semester_3",
     "Semester_3/CompArch/assets/Screenshot 2023-12-20 at 13.53.32.png",
     "Semester_3/CompArch/assets/Screenshot 2023-12-20 at 13.31.00.png",
-    "Semester_3/CompArch/assets/Screenshot 2023-12-20 at 13.30.38.png",
-    "Semester_3/CompArch/assets/Screenshot 2023-12-20 at 13.31.17.png",
-    "Semester_3/CompArch/assets/Screenshot 2023-12-20 at 13.19.32.png",
     "Untitled.canvas",
     "Semester_3/ML/assets",
     "Semester_3/ML",

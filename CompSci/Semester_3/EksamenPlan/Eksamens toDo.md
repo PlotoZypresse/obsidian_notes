@@ -1,7 +1,7 @@
 CompArch Læsning
 
-- [ ] Ch. 13-15 Assembly
-- [ ] Ch. 10-11 [[Twos Complement]] [[Booths Algorithm]] [[Twos Complement Subtraction]] [[Twos Complement Addition]] [[Twos Complement conversion and negation]] [[]]
+- [x] Ch. 13-15 Assembly
+- [x] Ch. 10-11 Notes mangler [[Multiplication Twos Complement]]
 - [ ] Ch. 12
 - [ ] Ch. 3 App. A
 - [ ] Ch. 4-5
