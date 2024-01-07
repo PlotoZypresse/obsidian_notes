@@ -1,3 +1,9 @@
+---
+sr-due: 2024-01-05
+sr-interval: 1
+sr-ease: 230
+---
+
 ## Introduction to SOP Form
 
 - **Definition**: The Sum of Products (SOP) form is a method of expressing a Boolean function as a sum (logical OR) of products (logical ANDs) of literals.
@@ -7,12 +13,11 @@
 
 - **Structure**: An SOP expression consists of several product terms added together.
 - Each product term is an AND of one or more literals (variables or their complements).
-- **Example**: For variables A, B, C, an SOP expression could be AB+AˉC+BCAB+AˉC+BC.
+- **Example**: For variables A, B, C, an SOP expression could be AB+AˉC+BC.
 
 ## Constructing SOP Expressions
 
 ### From Truth Tables
-
 1. **Identify True Outputs**: Look at the truth table of the Boolean function and identify rows where the output is true (1).
 2. **Create Product Terms**: For each row where the output is 1, create a product term using the corresponding input variables.
     - Use the variable itself if it's true in that row, or its complement if false.

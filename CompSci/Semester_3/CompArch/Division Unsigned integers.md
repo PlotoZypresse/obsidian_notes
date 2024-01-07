@@ -1,3 +1,9 @@
+---
+sr-due: 2024-01-05
+sr-interval: 1
+sr-ease: 234
+---
+
 Division can be done just like normal pencil and paper division. 
 
 # Binary Division

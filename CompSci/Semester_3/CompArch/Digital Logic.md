@@ -1,3 +1,9 @@
+---
+sr-due: 2024-01-05
+sr-interval: 1
+sr-ease: 229
+---
+
 ## Overview of Digital Logic
 
 - **Definition**: Digital logic forms the foundation of computer architecture. It involves the use of logic [[Gates]] and circuits to implement algorithms and functions in hardware.

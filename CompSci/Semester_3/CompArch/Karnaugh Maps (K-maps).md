@@ -1,3 +1,9 @@
+---
+sr-due: 2024-01-05
+sr-interval: 1
+sr-ease: 230
+---
+
 ## What is a Karnaugh Map?
 
 - A **Karnaugh Map** is a visual tool for simplifying Boolean algebra expressions in digital circuit design.
@@ -52,16 +58,16 @@
 
 ### Simplification Process
 
-- Group 1: All four '1's in the row AB=11.
-- Group 2: The two '1's in column CD=11 for rows AB=00 and AB=01.
-- Group 3: The two '1's in column CD=01 for rows AB=01 and AB=11.
+- Group 1: All four '1's in the row $AB=11$.
+- Group 2: The two '1's in column $CD=11$ for rows $AB=00$ and $AB=01$.
+- Group 3: The two '1's in column $CD=01$ for rows $AB=01$ and $AB=11$.
 
 ### Simplified Expression
 
-- Group 1 (AB=11): Represents ABAB.
-- Group 2 (CD=11): Represents AˉBˉDAˉBˉD.
-- Group 3 (CD=01): Represents BCBC.
-- Final Expression: F=AB+AˉBˉD+BCF=AB+AˉBˉD+BC.
+- Group 1 (AB=11): Represents $AB$.
+- Group 2 (CD=11): Represents $AˉBˉD$.
+- Group 3 (CD=01): Represents $BC$.
+- Final Expression: $F=AB+AˉBˉD+BC$.
 
 [[Gates]]
 

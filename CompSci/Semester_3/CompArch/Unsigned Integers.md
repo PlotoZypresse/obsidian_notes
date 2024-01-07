@@ -1,3 +1,9 @@
+---
+sr-due: 2024-01-07
+sr-interval: 3
+sr-ease: 268
+---
+
 Unsigned integers are represented with 0 and 1 duhh. but they do not have a sign bit like signed integers. So they can not represent negative numbers. Because of that they are not used that often in the real world. Other and often better options are [[Sign-Magnitude Representation]] or [[Twos Complement]].  [[Division Unsigned integers]] [[Multiplication Unsigned integers]] 
 
 ---

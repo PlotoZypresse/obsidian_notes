@@ -1,3 +1,9 @@
+---
+sr-due: 2024-01-05
+sr-interval: 1
+sr-ease: 228
+---
+
 ## Introduction to Boolean Algebra
 
 - **Definition**: Boolean Algebra is a branch of algebra that deals with variables that have two distinct values: true (1) and false (0).
@@ -11,9 +17,9 @@
 
 ### Operators
 
-- **AND** (Conjunction): Denoted as A⋅BA⋅B or simply ABAB. Output is true if both inputs are true.
-- **OR** (Disjunction): Denoted as A+BA+B. Output is true if at least one input is true.
-- **NOT** (Negation): Denoted as AˉAˉ or NOT  ANOTA. Inverts the input value.
+- **AND** (Conjunction): Denoted as A⋅B or simply AB. Output is true if both inputs are true.
+- **OR** (Disjunction): Denoted as A+B. Output is true if at least one input is true.
+- **NOT** (Negation): Denoted as Aˉˉ or NOT  A. Inverts the input value.
 
 ## Fundamental Laws of Boolean Algebra
 
@@ -21,7 +27,6 @@
     - $A+0=A$
     - $A⋅1=A$
 2. **Null Law**:
-    
     - $A+1=1$
     - $A⋅0=0$
 3. **Idempotent Law**:
@@ -31,7 +36,7 @@
     - $A+Aˉ=1$
     - $A⋅Aˉ=0$
 5. **Commutative Law**:
-    - $A+B=B+A$$
+    - $A+B=B+A$
     - $AB=BA$
 6. **Associative Law**:
     - $(A+B)+C=A+(B+C)$
@@ -52,7 +57,7 @@
 - Can be simplified using the laws of Boolean algebra.
 - Useful in designing and optimizing digital circuits.
 
-[[Karnaugh Maps (K-maps)]] [[Gates]] 
+[[Karnaugh Maps (K-maps)]] [[Gates]] [[Sum of Products(SOP)]] [[Product of sum(POS)]]
 
 --- 
 #review 

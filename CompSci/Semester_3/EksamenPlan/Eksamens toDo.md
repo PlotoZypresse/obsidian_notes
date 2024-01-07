@@ -1,10 +1,10 @@
 CompArch Læsning
 
 - [x] Ch. 13-15 Assembly
-- [x] Ch. 10-11 Notes mangler [[Multiplication Twos Complement]]
-- [ ] Ch. 12
-- [ ] Ch. 3 App. A
-- [ ] Ch. 4-5
+- [x] Ch. 10-11 
+- [x] Ch. 12
+- [x] Ch. 3 App. A
+- [x] Ch. 4-5
 - [ ] Ch. 6-7
 - [ ] Ch. 8
 - [ ] Ch. 16
@@ -19,7 +19,13 @@ CompArch Eksamensset
 - [ ] 18
 - [ ] 16
 - [ ] 9
-- [ ] e-time
+- [x] e-time 1
+- [ ] e time 2
+- [ ] etime 3 
+- [ ] e time 4
+- [ ] e time 5
+- [ ] etime 6
+- [ ] etime 7
 
 ML læsnign
 

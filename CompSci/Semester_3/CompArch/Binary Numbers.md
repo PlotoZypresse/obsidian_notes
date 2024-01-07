@@ -1,3 +1,9 @@
+---
+sr-due: 2024-01-08
+sr-interval: 4
+sr-ease: 272
+---
+
 ## Overview
 
 - **Definition**: Binary numbers are a base-2 numeral system which uses only two symbols: 0 and 1.
