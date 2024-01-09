@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Assembly Adressing.md",
+                "file": "Semester_3/CompArch/Cache Memory.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Assembly Adressing.md",
+                "file": "Semester_3/CompArch/Cache Memory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Assembly Adressing.md",
+                "file": "Semester_3/CompArch/Cache Memory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Assembly Adressing.md"
+                "file": "Semester_3/CompArch/Cache Memory.md"
               }
             }
           },
@@ -219,16 +219,19 @@
   },
   "active": "58649da8d39bd89e",
   "lastOpenFiles": [
-    "Semester_3/CompArch/Assembly cheat sheet.md",
+    "Screenshot 2024-01-08 at 17.45.59.png",
+    "latexsheet-a4.pdf",
+    "latexcheatsheet.pdf",
+    "Semester_3/CompArch/Karnaugh Maps (K-maps).md",
+    "Semester_3/CompArch/Set Associative Mapping.md",
     "Assembly Adressing.md",
+    "Semester_3/CompArch/Assembly cheat sheet.md",
     "Semester_3/CompArch/Twos Complement Subtraction.md",
     "Semester_3/CompArch/Overflow.md",
     "Semester_3/CompArch/assets/Screenshot 2024-01-07 at 12.34.00.png",
     "Semester_3/CompArch/Twos Complement conversion and negation.md",
     "Semester_3/CompArch/Addition Unsigned Integers.md",
     "Inserting Images in LaTeX | How to Insert:Add:Embed Images in LaTeX | Resurchify.pdf",
-    "latexcheatsheet.pdf",
-    "latexsheet-a4.pdf",
     "Semester_3/CompArch/Booths Algorithm.md",
     "Inserting Images - Overleaf, Online LaTeX Editor.pdf",
     "Semester_3/CompArch/latexsheet-a4.pdf",
@@ -250,10 +253,7 @@
     "Untitled.canvas",
     "Semester_3/CompArch/Floating-Point Representation.md",
     "Semester_3/CompArch/Sign-Magnitude Representation.md",
-    "Semester_3/CompArch/Karnaugh Maps (K-maps).md",
     "Semester_3/CompArch/Division Twos Complement.md",
-    "Semester_3/CompArch/Multiplication Twos Complement.md",
-    "Semester_3/CompArch/Quine-McCluskey Methode.md",
     "Semester_3/CompArch/assets/Commented.pdf",
     "Semester_3/CompArch/assets/Screenshot 2023-12-29 at 16.10.41.png",
     "Semester_3/CompArch/assets/Screenshot 2023-12-25 at 14.37.34.png",
@@ -263,7 +263,6 @@
     "Semester_3/CompArch/assets/Screenshot 2023-12-23 at 11.26.33.png",
     "Semester_3/CompArch/assets/Screenshot 2023-12-23 at 11.16.19.png",
     "Semester_3/ML/Classification",
-    "Semester_3/CompArch/assets/Screenshot 2023-12-20 at 13.55.42.png",
     "Semester_3",
     "Semester_3/ML/assets"
   ]

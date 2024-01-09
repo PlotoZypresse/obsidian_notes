@@ -68,7 +68,7 @@ sr-ease: 230
 - Group 2 (CD=11): Represents $AˉBˉD$.
 - Group 3 (CD=01): Represents $BC$.
 - Final Expression: $F=AB+AˉBˉD+BC$.
-
+![[Screenshot 2024-01-08 at 17.45.59.png]]
 [[Gates]]
 
 --- 
