@@ -5,7 +5,7 @@ sr-ease: 230
 ---
 
 #### Overview
-- Ridge Regression, also known as L2 regularization, is a technique used for analyzing multiple regression data when [[multicollinearity]] is present.
+- Ridge Regression, also known as L2 regularization, is a technique used for analyzing multiple regression data when [[Multicollinearity]] is present.
 - It adds a degree of bias to the regression estimates, which reduces the standard errors.
 
 #### Mathematical Formulation

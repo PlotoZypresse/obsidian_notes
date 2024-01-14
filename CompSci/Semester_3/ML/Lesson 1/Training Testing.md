@@ -1,0 +1,9 @@
+1. **Data Splitting**: In machine learning, the dataset is typically divided into two parts: training data and test data. The split ratio can vary, but a common practice is to use 70-80% of the data for training and the remaining 20-30% for testing. In your example, if $S = {(x_1, y_1), \ldots, (x_n, y_n)}$ represents the entire dataset, then a 50-50 split for training and testing, as you've mentioned, is just one of the many possible approaches.
+2. **Training the Model**: The model is trained on the training data. This process involves adjusting the model's parameters to best fit the given input-output pairs $(x, y)$ in the training set.
+3. **Testing the Model**: After training, the model's performance is evaluated on the test data. This step is crucial for assessing how well the model generalizes to new, unseen data.
+4. **Overfitting and Underfitting**:
+    - **Overfitting**: This occurs when a model performs very well on the training data but poorly on the test data. It indicates that the model has learned the training data too well, including its noise and outliers, and thus fails to generalize.
+    - **Underfitting**: Contrarily, underfitting happens when a model performs poorly on the training data itself. This suggests that the model is too simple to capture the underlying patterns in the data.
+5. **Improving the Model**: To address overfitting, techniques such as regularization, increasing data size, or using a simpler model can be employed. For underfitting, more complex models, additional features, or longer training times might be helpful.
+[[Over and Underfitting]]
+![[Screenshot 2024-01-14 at 09.32.37.png]]

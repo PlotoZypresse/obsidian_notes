@@ -8,79 +8,39 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2e5c6c0b2689c777",
+            "id": "4df2228a6d82fa4d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester_3/CompArch/Twos Complement Subtraction.md",
+                "file": "Semester_3/ML/ML.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "3c418c1c17bd9fff",
+            "id": "67fc644c7fe748fb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester_3/CompArch/Assembly cheat sheet.md",
+                "file": "Semester_3/ML/Lesson 5-6-7/Random Variables.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "58649da8d39bd89e",
+            "id": "8020069ff0fbe32c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Semester_3/CompArch/Cache Memory.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9a4a2d1b9099c199",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Semester_3/CompArch/IEEE 754 Arithmatic.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bab59ad37720ac7a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Semester_3/CompArch/IEEE 754 Standard.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a477a8c111aac3c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Semester_3/EksamenPlan/Eksamens toDo.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -130,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 323.5
+    "width": 284.5
   },
   "right": {
     "id": "1df06c811ca3ebea",
@@ -146,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester_3/CompArch/Cache Memory.md",
+                "file": "Semester_3/ML/Lesson 5-6-7/Random Variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semester_3/CompArch/Cache Memory.md",
+                "file": "Semester_3/ML/Lesson 5-6-7/Random Variables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semester_3/CompArch/Cache Memory.md"
+                "file": "Semester_3/ML/Lesson 5-6-7/Random Variables.md"
               }
             }
           },
@@ -217,53 +177,54 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "58649da8d39bd89e",
+  "active": "67fc644c7fe748fb",
   "lastOpenFiles": [
-    "Screenshot 2024-01-08 at 17.45.59.png",
-    "latexsheet-a4.pdf",
-    "latexcheatsheet.pdf",
-    "Semester_3/CompArch/Karnaugh Maps (K-maps).md",
-    "Semester_3/CompArch/Set Associative Mapping.md",
-    "Assembly Adressing.md",
-    "Semester_3/CompArch/Assembly cheat sheet.md",
-    "Semester_3/CompArch/Twos Complement Subtraction.md",
-    "Semester_3/CompArch/Overflow.md",
+    "Semester_3/ML/Lesson 5-6-7/Independence.md",
+    "Semester_3/ML/Lesson 5-6-7/Conditional Probability.md",
+    "Semester_3/ML/Lesson 5-6-7/Events in Probability Theory.md",
+    "Semester_3/ML/Lesson 5-6-7/Bias and Variance.md",
+    "Semester_3/ML/Lesson 5-6-7/Random Variables.md",
+    "Semester_3/ML/ML.md",
+    "Semester_3/ML/Multicollinearity.md",
+    "Semester_3/ML/PCA.md",
+    "Semester_3/ML/assets/Screenshot 2024-01-14 at 17.43.09.png",
+    "Semester_3/ML/Lesson 5-6-7/Law of Total Probability.md",
+    "Semester_3/ML/Lesson 5-6-7/Axioms.md",
+    "Semester_3/ML/Lesson 5-6-7/Bayes' Theorem.md",
+    "Semester_3/ML/assets/Screenshot 2024-01-14 at 17.30.38.png",
+    "Semester_3/ML/assets/Screenshot 2024-01-14 at 17.09.01.png",
+    "Semester_3/ML/Lesson 5-6-7/Sigma Algebras.md",
+    "Semester_3/ML/Lesson 3-4/Precision - recall - f1.md",
+    "Semester_3/ML/Lesson 3-4/Cross Validation.md",
+    "Semester_3/ML/Lesson 2/Norms.md",
+    "Semester_3/ML/Lesson 3-4/ROC and AUC.md",
+    "Semester_3/ML/Lesson 3-4/K-Nearest Neighbors (KNN).md",
+    "Semester_3/ML/Lesson 2/L1 Lasso Regression.md",
+    "Semester_3/ML/Lesson 2/L2 Ridge Regression.md",
+    "Untitled.md",
+    "Semester_3/ML/assets/Screenshot 2024-01-14 at 09.57.55.png",
+    "Semester_3/ML/Lesson 1/Supervised and unsupervised Learning.md",
+    "Semester_3/ML/Lesson 1/The Empirical Risk Minimization (ERM) Paradigm.md",
+    "Semester_3/ML/Lesson 2/Least Squares.md",
+    "Semester_3/ML/Lesson 2/Linear Regression.md",
+    "Semester_3/ML/Entropy.md",
+    "Semester_3/ML/Lesson 1/Performance Evaluation.md",
+    "Semester_3/ML/assets/Screenshot 2024-01-14 at 09.57.11.png",
+    "Semester_3/ML/assets/Screenshot 2024-01-14 at 09.32.37.png",
+    "Semester_3/ML/Lesson 16",
+    "Semester_3/ML/Lesson 15",
+    "Semester_3/ML/Lesson 13-14",
+    "Semester_3/ML/Lesson 12-13",
+    "Semester_3/ML/Lesson 11",
+    "Semester_3/ML/Lesson 9-10",
+    "Semester_3/ML/Lesson 8-9",
+    "Semester_3/ML/Lesson 5-6-7",
+    "Semester_3/ML/Lesson 3-4",
+    "Semester_3/ML/Lesson 2",
+    "Semester_3/CompArch/assets/Screenshot 2024-01-08 at 17.45.59.png",
     "Semester_3/CompArch/assets/Screenshot 2024-01-07 at 12.34.00.png",
-    "Semester_3/CompArch/Twos Complement conversion and negation.md",
-    "Semester_3/CompArch/Addition Unsigned Integers.md",
-    "Inserting Images in LaTeX | How to Insert:Add:Embed Images in LaTeX | Resurchify.pdf",
-    "Semester_3/CompArch/Booths Algorithm.md",
-    "Inserting Images - Overleaf, Online LaTeX Editor.pdf",
-    "Semester_3/CompArch/latexsheet-a4.pdf",
-    "Semester_3/CompArch/Multiplicand.md",
-    "Semester_3/CompArch/Multiplier.md",
-    "Semester_3/CompArch/IEEE 754 Conversion.md",
-    "IEEE 754 Conversion.pdf",
-    "Semester_3/CompArch/IEEE 754 Arithmatic.md",
-    "Semester_3/CompArch/IEEE 754 Standard.md",
-    "Semester_3/CompArch/Bias in IEEE 754.md",
-    "Semester_3/CompArch/Sum of Products(SOP).md",
-    "Semester_3/CompArch/Boolean Algebra.md",
-    "Semester_3/CompArch/Subtraction Unsigned Integers.md",
     "Semester_3/CompArch/assets/Screenshot 2024-01-06 at 13.07.37.png",
-    "Semester_3/CompArch/Binary To Decimal.md",
-    "Semester_3/CompArch/Decimal To Binary.md",
-    "Semester_3/EksamenPlan/Eksamens toDo.md",
-    "Semester_3/CompArch/Step-by-Step Hamming Code Encoding.md",
     "Untitled.canvas",
-    "Semester_3/CompArch/Floating-Point Representation.md",
-    "Semester_3/CompArch/Sign-Magnitude Representation.md",
-    "Semester_3/CompArch/Division Twos Complement.md",
-    "Semester_3/CompArch/assets/Commented.pdf",
-    "Semester_3/CompArch/assets/Screenshot 2023-12-29 at 16.10.41.png",
-    "Semester_3/CompArch/assets/Screenshot 2023-12-25 at 14.37.34.png",
-    "Semester_3/CompArch/assets/Screenshot 2023-12-25 at 14.36.07.png",
-    "Semester_3/CompArch/assets/Screenshot 2023-12-23 at 12.27.14.png",
-    "Semester_3/CompArch/assets/Screenshot 2023-12-23 at 12.25.44.png",
-    "Semester_3/CompArch/assets/Screenshot 2023-12-23 at 11.26.33.png",
-    "Semester_3/CompArch/assets/Screenshot 2023-12-23 at 11.16.19.png",
-    "Semester_3/ML/Classification",
-    "Semester_3",
-    "Semester_3/ML/assets"
+    "Semester_3/CompArch/assets/Screenshot 2023-12-29 at 16.10.41.png"
   ]
 }
