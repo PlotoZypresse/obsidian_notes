@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester_3/ML/ML.md",
+                "file": "Semester_3/ML/Lesson 16/Gradient Boosting.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester_3/ML/Lesson 5-6-7/Random Variables.md",
+                "file": "Semester_3/ML/Entropy.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester_3/ML/Lesson 5-6-7/Random Variables.md",
+                "file": "Semester_3/ML/Entropy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semester_3/ML/Lesson 5-6-7/Random Variables.md",
+                "file": "Semester_3/ML/Entropy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semester_3/ML/Lesson 5-6-7/Random Variables.md"
+                "file": "Semester_3/ML/Entropy.md"
               }
             }
           },
@@ -179,36 +179,40 @@
   },
   "active": "67fc644c7fe748fb",
   "lastOpenFiles": [
-    "Semester_3/ML/Lesson 5-6-7/Independence.md",
-    "Semester_3/ML/Lesson 5-6-7/Conditional Probability.md",
-    "Semester_3/ML/Lesson 5-6-7/Events in Probability Theory.md",
-    "Semester_3/ML/Lesson 5-6-7/Bias and Variance.md",
-    "Semester_3/ML/Lesson 5-6-7/Random Variables.md",
     "Semester_3/ML/ML.md",
-    "Semester_3/ML/Multicollinearity.md",
+    "Semester_3/ML/Probability Formulas.md",
     "Semester_3/ML/PCA.md",
+    "Semester_3/ML/Exam/Untitled.md",
+    "Semester_3/ML/Videos for JupyterNotebooks.md",
+    "Semester_3/ML/Exam/knn statements.md",
+    "Semester_3/ML/assets/Screenshot 2024-01-17 at 14.05.05.png",
+    "Semester_3/ML/Lesson 3-4/Precision - recall - f1.md",
+    "Semester_3/ML/Lesson 1/Experience (E).md",
+    "Semester_3/ML/Lesson 1/Over and Underfitting.md",
+    "Semester_3/ML/Lesson 1/Performance Evaluation.md",
+    "Semester_3/ML/Lesson 1/Performance Measure (P).md",
+    "Semester_3/ML/Lesson 1/The Empirical Risk Minimization (ERM) Paradigm.md",
+    "Semester_3/ML/Lesson 1/Supervised and unsupervised Learning.md",
+    "Semester_3/ML/Lesson 1/Task (T).md",
+    "Semester_3/ML/assets/Screenshot 2024-01-17 at 12.53.42.png",
+    "Semester_3/ML/Lesson 5-6-7/Bias and Variance.md",
+    "Semester_3/ML/Exam",
+    "Semester_3/ML/Lesson 5-6-7/Bias.md",
+    "Semester_3/ML/Lesson 5-6-7/Expectation.md",
+    "Semester_3/ML/Lesson 11/Clustering k-Means.md",
+    "Semester_3/ML/Lesson 16/Gradient Boosting.md",
+    "Semester_3/ML/Lesson 16/AdaBoost.md",
+    "Semester_3/ML/Lesson 16/Federated learning.md",
+    "Semester_3/ML/Lesson 16/Bootstrap Aggregation.md",
+    "Semester_3/ML/Lesson 13-14/Bellman equation.md",
+    "Semester_3/ML/Lesson 15/Support vector machines.md",
+    "Semester_3/ML/Lesson 15/Support Vector Machines (SVMs).md",
+    "Semester_3/ML/Lesson 15/The Kernel Trick.md",
+    "Semester_3/ML/Lesson 13-14/Untitled",
     "Semester_3/ML/assets/Screenshot 2024-01-14 at 17.43.09.png",
-    "Semester_3/ML/Lesson 5-6-7/Law of Total Probability.md",
-    "Semester_3/ML/Lesson 5-6-7/Axioms.md",
-    "Semester_3/ML/Lesson 5-6-7/Bayes' Theorem.md",
     "Semester_3/ML/assets/Screenshot 2024-01-14 at 17.30.38.png",
     "Semester_3/ML/assets/Screenshot 2024-01-14 at 17.09.01.png",
-    "Semester_3/ML/Lesson 5-6-7/Sigma Algebras.md",
-    "Semester_3/ML/Lesson 3-4/Precision - recall - f1.md",
-    "Semester_3/ML/Lesson 3-4/Cross Validation.md",
-    "Semester_3/ML/Lesson 2/Norms.md",
-    "Semester_3/ML/Lesson 3-4/ROC and AUC.md",
-    "Semester_3/ML/Lesson 3-4/K-Nearest Neighbors (KNN).md",
-    "Semester_3/ML/Lesson 2/L1 Lasso Regression.md",
-    "Semester_3/ML/Lesson 2/L2 Ridge Regression.md",
-    "Untitled.md",
     "Semester_3/ML/assets/Screenshot 2024-01-14 at 09.57.55.png",
-    "Semester_3/ML/Lesson 1/Supervised and unsupervised Learning.md",
-    "Semester_3/ML/Lesson 1/The Empirical Risk Minimization (ERM) Paradigm.md",
-    "Semester_3/ML/Lesson 2/Least Squares.md",
-    "Semester_3/ML/Lesson 2/Linear Regression.md",
-    "Semester_3/ML/Entropy.md",
-    "Semester_3/ML/Lesson 1/Performance Evaluation.md",
     "Semester_3/ML/assets/Screenshot 2024-01-14 at 09.57.11.png",
     "Semester_3/ML/assets/Screenshot 2024-01-14 at 09.32.37.png",
     "Semester_3/ML/Lesson 16",
@@ -219,12 +223,8 @@
     "Semester_3/ML/Lesson 9-10",
     "Semester_3/ML/Lesson 8-9",
     "Semester_3/ML/Lesson 5-6-7",
-    "Semester_3/ML/Lesson 3-4",
-    "Semester_3/ML/Lesson 2",
     "Semester_3/CompArch/assets/Screenshot 2024-01-08 at 17.45.59.png",
     "Semester_3/CompArch/assets/Screenshot 2024-01-07 at 12.34.00.png",
-    "Semester_3/CompArch/assets/Screenshot 2024-01-06 at 13.07.37.png",
-    "Untitled.canvas",
-    "Semester_3/CompArch/assets/Screenshot 2023-12-29 at 16.10.41.png"
+    "Untitled.canvas"
   ]
 }
