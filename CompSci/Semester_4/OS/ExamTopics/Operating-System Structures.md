@@ -1,0 +1,8 @@
+- system calls
+- user kernel mode
+- services
+- os structure
+- boot process
+- bus communication
+- monolithic and micro kernels
+- 

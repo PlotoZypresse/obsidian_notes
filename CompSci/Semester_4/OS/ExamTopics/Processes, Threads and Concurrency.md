@@ -1,0 +1,15 @@
+- Processes
+- Process scheduling
+- Interproces communication
+- IPC shared memory
+- IPC message passing
+- IPC systems
+- Communication in client server
+- Multicore programming
+- Multithreading models
+- Implicit threading
+- Threading issues
+- pipes 
+- threads
+- concurrency 
+- paralism 

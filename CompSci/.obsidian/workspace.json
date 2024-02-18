@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4df2228a6d82fa4d",
+            "id": "b4626b2c52d13c43",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester_3/ML/Lesson 16/Gradient Boosting.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "67fc644c7fe748fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Semester_3/ML/Entropy.md",
+                "file": "Semester_3/ML/Exam/answers from 1 exam.md",
                 "mode": "source",
                 "source": false
               }
@@ -35,12 +23,15 @@
             "id": "8020069ff0fbe32c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Semester_4/AvanAlgo/MaxFlow/Chapter 24 Max Flow.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -69,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#review",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester_3/ML/Entropy.md",
+                "file": "Semester_3/ML/Exam/answers from 1 exam.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semester_3/ML/Entropy.md",
+                "file": "Semester_3/ML/Exam/answers from 1 exam.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semester_3/ML/Entropy.md"
+                "file": "Semester_3/ML/Exam/answers from 1 exam.md"
               }
             }
           },
@@ -177,54 +168,54 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "67fc644c7fe748fb",
+  "active": "b4626b2c52d13c43",
   "lastOpenFiles": [
-    "Semester_3/ML/ML.md",
     "Semester_3/ML/Probability Formulas.md",
-    "Semester_3/ML/PCA.md",
-    "Semester_3/ML/Exam/Untitled.md",
-    "Semester_3/ML/Videos for JupyterNotebooks.md",
-    "Semester_3/ML/Exam/knn statements.md",
-    "Semester_3/ML/assets/Screenshot 2024-01-17 at 14.05.05.png",
-    "Semester_3/ML/Lesson 3-4/Precision - recall - f1.md",
-    "Semester_3/ML/Lesson 1/Experience (E).md",
-    "Semester_3/ML/Lesson 1/Over and Underfitting.md",
-    "Semester_3/ML/Lesson 1/Performance Evaluation.md",
-    "Semester_3/ML/Lesson 1/Performance Measure (P).md",
+    "Semester_3/ML/Multicollinearity.md",
+    "Semester_3/ML/assets/Screenshot 2024-02-18 at 18.28.34.png",
+    "Semester_3/ML/assets/Screenshot 2024-02-18 at 18.28.20.png",
+    "Semester_3/ML/assets/Screenshot 2024-02-18 at 17.46.06.png",
+    "Semester_3/ML/assets/Screenshot 2024-02-18 at 17.44.03.png",
+    "Semester_3/ML/assets/Screenshot 2024-02-18 at 17.43.51.png",
+    "Semester_3/ML/assets/Screenshot 2024-02-18 at 17.32.06.png",
+    "Semester_3/ML/assets/Screenshot 2024-02-18 at 17.31.56.png",
+    "Semester_3/ML/assets/Screenshot 2024-02-18 at 17.23.10.png",
+    "Semester_3/ML/assets/Screenshot 2024-02-18 at 17.22.52.png",
+    "Semester_3/ML/assets/Screenshot 2024-02-18 at 17.06.56.png",
+    "Semester_3/ML/Lesson 2/Least Squares.md",
+    "Semester_3/ML/Lesson 2/Lesson 2.md",
+    "Semester_3/ML/Lesson 2/Linear Regression.md",
+    "Semester_3/ML/Lesson 2/Multivariate Analysis.md",
+    "Semester_3/ML/Lesson 2/Mutual Information.md",
+    "Semester_3/ML/Lesson 2/Norms.md",
+    "Semester_3/ML/Lesson 2/Sums of Squares.md",
+    "Semester_3/ML/Lesson 1/Training Testing.md",
     "Semester_3/ML/Lesson 1/The Empirical Risk Minimization (ERM) Paradigm.md",
     "Semester_3/ML/Lesson 1/Supervised and unsupervised Learning.md",
     "Semester_3/ML/Lesson 1/Task (T).md",
-    "Semester_3/ML/assets/Screenshot 2024-01-17 at 12.53.42.png",
-    "Semester_3/ML/Lesson 5-6-7/Bias and Variance.md",
-    "Semester_3/ML/Exam",
-    "Semester_3/ML/Lesson 5-6-7/Bias.md",
-    "Semester_3/ML/Lesson 5-6-7/Expectation.md",
+    "Semester_3/ML/Lesson 1/Performance Measure (P).md",
+    "Semester_3/ML/Lesson 1/Performance Evaluation.md",
+    "Semester_3/ML/Exam/answers from 1 exam.md",
+    "Semester_3/ML/ML.md",
     "Semester_3/ML/Lesson 11/Clustering k-Means.md",
-    "Semester_3/ML/Lesson 16/Gradient Boosting.md",
-    "Semester_3/ML/Lesson 16/AdaBoost.md",
-    "Semester_3/ML/Lesson 16/Federated learning.md",
-    "Semester_3/ML/Lesson 16/Bootstrap Aggregation.md",
-    "Semester_3/ML/Lesson 13-14/Bellman equation.md",
-    "Semester_3/ML/Lesson 15/Support vector machines.md",
-    "Semester_3/ML/Lesson 15/Support Vector Machines (SVMs).md",
-    "Semester_3/ML/Lesson 15/The Kernel Trick.md",
-    "Semester_3/ML/Lesson 13-14/Untitled",
-    "Semester_3/ML/assets/Screenshot 2024-01-14 at 17.43.09.png",
-    "Semester_3/ML/assets/Screenshot 2024-01-14 at 17.30.38.png",
-    "Semester_3/ML/assets/Screenshot 2024-01-14 at 17.09.01.png",
-    "Semester_3/ML/assets/Screenshot 2024-01-14 at 09.57.55.png",
-    "Semester_3/ML/assets/Screenshot 2024-01-14 at 09.57.11.png",
-    "Semester_3/ML/assets/Screenshot 2024-01-14 at 09.32.37.png",
-    "Semester_3/ML/Lesson 16",
-    "Semester_3/ML/Lesson 15",
-    "Semester_3/ML/Lesson 13-14",
-    "Semester_3/ML/Lesson 12-13",
-    "Semester_3/ML/Lesson 11",
-    "Semester_3/ML/Lesson 9-10",
-    "Semester_3/ML/Lesson 8-9",
-    "Semester_3/ML/Lesson 5-6-7",
-    "Semester_3/CompArch/assets/Screenshot 2024-01-08 at 17.45.59.png",
-    "Semester_3/CompArch/assets/Screenshot 2024-01-07 at 12.34.00.png",
+    "Semester_3/ML/Lesson 5-6-7/Bernoulli Distribution.md",
+    "Semester_3/ML/Lesson 1/Over and Underfitting.md",
+    "Semester_3/ML/Lesson 5-6-7/Law of Total Probability.md",
+    "Semester_3/ML/Lesson 5-6-7/Probability density functions.md",
+    "Semester_3/ML/Lesson 5-6-7/Random Variables.md",
+    "Semester_4/OS/Chapters 3-4/Etime 16.02.md",
+    "Semester_4/OS/ExamTopics/Processes, Threads and Concurrency.md",
+    "Semester_4/OS/img",
+    "Semester_4/OS/ExamTopics/Operating-System Structures.md",
+    "Semester_4/OS/Chapters 3-4",
+    "Semester_4/AvanAlgo/img",
+    "Semester_4/AvanAlgo/MaxFlow",
+    "Semester_4/AvanAlgo",
+    "Semester_4/OS/Chapters 1-2/Untitled",
+    "Semester_4/OS/Lectures",
+    "Semester_4/OS/Chapters 1-2",
+    "Semester_4/OS/ExamTopics",
+    "Semester_4/OS",
     "Untitled.canvas"
   ]
 }
