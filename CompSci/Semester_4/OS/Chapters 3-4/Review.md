@@ -1,0 +1,17 @@
+- What state can a process be in?
+	- Waiting, running, new, ready, terminated
+- What is a process Control Block, and its content?
+	- State, counter, CPU registers, CPU scheduling info, memory management info, accounting info, I/O status info
+	- A data structure the OS keeps all information about a process in, and is ised when a process is involved in a context switch.
+- Describe ways to do IPC?
+	- Message passing, shared memory
+- What is the difference between a process and a thread?
+	- Process is a running program. It can have one or more threads
+- what advantages is there when using threads?
+	- Scalibility, responivnes, resource sharing
+- difference between parallelism and concurrency? 
+	- Paralism implies a system can perform more than one task simultaniusly, concurrency
+- what are the most common APIs for user level threads? 
+	- Posix, Win threads, Java threads
+- what are the implicit threading methods?
+	- tread pols, OpenMP, Grand Central Dispatch

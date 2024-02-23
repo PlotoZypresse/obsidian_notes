@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b4626b2c52d13c43",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Semester_3/ML/Exam/answers from 1 exam.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "8020069ff0fbe32c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester_4/AvanAlgo/MaxFlow/Chapter 24 Max Flow.md",
+                "file": "Semester_4/OS/Chapters 5/E-time.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester_3/ML/Exam/answers from 1 exam.md",
+                "file": "Semester_4/OS/Chapters 5/E-time.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semester_3/ML/Exam/answers from 1 exam.md",
+                "file": "Semester_4/OS/Chapters 5/E-time.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,20 +125,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semester_3/ML/Exam/answers from 1 exam.md"
+                "file": "Semester_4/OS/Chapters 5/E-time.md"
               }
-            }
-          },
-          {
-            "id": "01b5f18faf937eb6",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {}
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -164,58 +144,58 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-spaced-repetition:Review flashcards": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "b4626b2c52d13c43",
+  "active": "8020069ff0fbe32c",
   "lastOpenFiles": [
-    "Semester_3/ML/Probability Formulas.md",
-    "Semester_3/ML/Multicollinearity.md",
-    "Semester_3/ML/assets/Screenshot 2024-02-18 at 18.28.34.png",
-    "Semester_3/ML/assets/Screenshot 2024-02-18 at 18.28.20.png",
-    "Semester_3/ML/assets/Screenshot 2024-02-18 at 17.46.06.png",
-    "Semester_3/ML/assets/Screenshot 2024-02-18 at 17.44.03.png",
-    "Semester_3/ML/assets/Screenshot 2024-02-18 at 17.43.51.png",
-    "Semester_3/ML/assets/Screenshot 2024-02-18 at 17.32.06.png",
-    "Semester_3/ML/assets/Screenshot 2024-02-18 at 17.31.56.png",
-    "Semester_3/ML/assets/Screenshot 2024-02-18 at 17.23.10.png",
-    "Semester_3/ML/assets/Screenshot 2024-02-18 at 17.22.52.png",
-    "Semester_3/ML/assets/Screenshot 2024-02-18 at 17.06.56.png",
-    "Semester_3/ML/Lesson 2/Least Squares.md",
-    "Semester_3/ML/Lesson 2/Lesson 2.md",
-    "Semester_3/ML/Lesson 2/Linear Regression.md",
-    "Semester_3/ML/Lesson 2/Multivariate Analysis.md",
-    "Semester_3/ML/Lesson 2/Mutual Information.md",
-    "Semester_3/ML/Lesson 2/Norms.md",
-    "Semester_3/ML/Lesson 2/Sums of Squares.md",
-    "Semester_3/ML/Lesson 1/Training Testing.md",
-    "Semester_3/ML/Lesson 1/The Empirical Risk Minimization (ERM) Paradigm.md",
-    "Semester_3/ML/Lesson 1/Supervised and unsupervised Learning.md",
-    "Semester_3/ML/Lesson 1/Task (T).md",
-    "Semester_3/ML/Lesson 1/Performance Measure (P).md",
-    "Semester_3/ML/Lesson 1/Performance Evaluation.md",
+    "Semester_4/OS/ExamTopics/CPU scheduling.md",
+    "Semester_4/OS/Chapters 5/E-time.md",
+    "Semester_4/OS/ExamTopics/Virtual Machines.md",
+    "Semester_4/OS/ExamTopics/Security and Protection.md",
+    "Semester_4/OS/ExamTopics/File-System Implementation, File System Internals, and IO Systems.md",
+    "Semester_4/OS/ExamTopics/File System Interface.md",
+    "Semester_4/OS/ExamTopics/Mass-Storage Systems.md",
+    "Semester_4/OS/ExamTopics/Virtual-Memory.md",
+    "Semester_4/OS/ExamTopics/Main Memory.md",
+    "Semester_4/OS/ExamTopics/Deadlocks.md",
+    "Semester_4/OS/ExamTopics/Synchronization Tools and Synchronization Examples.md",
+    "Semester_4/OS/Chapters 18/Review.md",
+    "Semester_4/OS/Chapters 16+17/Review.md",
+    "Semester_4/OS/Chapters 13/Review.md",
+    "Semester_4/OS/Chapters 12+14+15/Review.md",
+    "Semester_4/OS/Chapters 10/Review.md",
+    "Semester_4/OS/Chapters 9/Review.md",
+    "Semester_4/OS/Chapters 8/Review.md",
+    "Semester_4/OS/Chapters 6-7/Review.md",
+    "Semester_4/OS/Lectures/Lesson 1 06.02.md",
+    "Semester_4/OS/Chapters 18",
+    "Semester_4/OS/Chapters 16+17",
+    "Semester_4/OS/Chapters 12+14+15",
+    "Semester_4/OS/Chapters 13",
+    "Semester_4/OS/Chapters 11",
+    "Semester_4/OS/Chapters 10",
+    "Semester_4/OS/Chapters 9",
+    "Semester_4/OS/Chapters 8",
+    "Semester_4/OS/img/Screenshot 2024-02-22 at 20.37.08.png",
+    "Semester_4/OS/Chapters 6-7",
+    "Semester_4/OS/img/Screenshot 2024-02-22 at 20.42.20.png",
+    "Semester_4/OS/img/Screenshot 2024-02-22 at 20.40.35.png",
+    "Semester_4/OS/img/Screenshot 2024-02-22 at 20.38.31.png",
+    "Semester_4/OS/img/Screenshot 2024-02-22 at 20.37.39.png",
+    "Semester_4/OS/img/Screenshot 2024-02-22 at 17.58.49.png",
+    "Semester_4/OS/img/Screenshot 2024-02-22 at 20.34.29.png",
+    "Semester_4/OS/img/Screenshot 2024-02-22 at 20.31.41.png",
+    "Semester_4/OS/img/Screenshot 2024-02-22 at 20.28.26.png",
+    "Semester_4/OS/img/Screenshot 2024-02-22 at 20.19.48.png",
+    "Semester_4/OS/Chapters 5/Review.md",
+    "Semester_4/AvanAlgo/MaxFlow/Exercise 2.md",
+    "Semester_4/AvanAlgo/MaxFlow/Exercises.md",
+    "Semester_4/OS/Chapters 3-4/Review.md",
+    "Semester_4/OS/Chapters 5",
+    "Semester_4/AvanAlgo/MaxFlow/Chapter 24 Max Flow.md",
     "Semester_3/ML/Exam/answers from 1 exam.md",
-    "Semester_3/ML/ML.md",
-    "Semester_3/ML/Lesson 11/Clustering k-Means.md",
-    "Semester_3/ML/Lesson 5-6-7/Bernoulli Distribution.md",
-    "Semester_3/ML/Lesson 1/Over and Underfitting.md",
-    "Semester_3/ML/Lesson 5-6-7/Law of Total Probability.md",
-    "Semester_3/ML/Lesson 5-6-7/Probability density functions.md",
-    "Semester_3/ML/Lesson 5-6-7/Random Variables.md",
-    "Semester_4/OS/Chapters 3-4/Etime 16.02.md",
-    "Semester_4/OS/ExamTopics/Processes, Threads and Concurrency.md",
-    "Semester_4/OS/img",
-    "Semester_4/OS/ExamTopics/Operating-System Structures.md",
-    "Semester_4/OS/Chapters 3-4",
-    "Semester_4/AvanAlgo/img",
-    "Semester_4/AvanAlgo/MaxFlow",
-    "Semester_4/AvanAlgo",
-    "Semester_4/OS/Chapters 1-2/Untitled",
-    "Semester_4/OS/Lectures",
-    "Semester_4/OS/Chapters 1-2",
-    "Semester_4/OS/ExamTopics",
-    "Semester_4/OS",
     "Untitled.canvas"
   ]
 }
