@@ -1,0 +1,18 @@
+- Background
+- Critical section Problem
+- Petersons Solution
+- Hardware support for synchronization
+- Mutex lock
+- Semaphores
+- Monitors
+- Liveness
+- Problems of synchronization
+- Synchronization within the kernel
+- POSIX Synchronization
+- Synchronization in java
+- Alternative approaches
+- Consumer porodcer
+- Raceconditions
+- Atomic variable
+- Deadlocks
+-  

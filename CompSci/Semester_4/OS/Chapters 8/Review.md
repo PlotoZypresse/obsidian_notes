@@ -1,0 +1,14 @@
+- Which 4 conditions must hold simultaneously for a deadlock
+	- mutual exclusion, hold and wait, no preemption, 
+- Describe the resource graph
+	- graph of resources and which processes are allocated and waits for them
+- what methods are there to handle deadlocks
+	- avoidance and prevention, or ignoring. 
+- what is a save state
+	- a state is when there is a sequence of processes that can be satisfied one at a time
+- describe the general idea of bankers algorithm
+	- 
+- how can a deadlock be  detected
+	- using a detection algortithm
+- how can you recover form a deadlock
+	- kill deadlocked processes

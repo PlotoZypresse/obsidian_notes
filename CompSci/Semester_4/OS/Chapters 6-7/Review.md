@@ -1,0 +1,17 @@
+- Describe the terms "race condition" and "Critical section"
+	-  A race condition is when if two processes acces/maniplute at the same time the same data concucrently and thus give the wrong result
+	- Critival section is a part of code where race conditions could happen so u make it critical
+- What should a good solution to the critical section problem satisfy
+	- Mutual exclusion
+	- progrwss
+	- bounded waiting
+- Describe "test and set" and "compare and swap"
+	- hardware backed options for implemnting atomic operatins
+	- 
+- Wha tis a mutex and a semaphore
+	- mutex is a simple lock often implemented with busy waiting
+	- semaphore: alockw ith wait and signal operaations no busy waiting usually has a number of resources
+- describe some classic problems of synchronization
+	- dining philosophers porblem
+- What is a monitor
+	- 

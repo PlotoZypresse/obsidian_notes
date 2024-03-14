@@ -1,0 +1,16 @@
+- Memory adresses
+- Logical adresses
+- Physical adresses
+- Dynamic loading and linking
+- memory protection
+- memory allocation
+- fragmentation
+- Paging
+	- Basic methode
+	- hardware support
+	- Protection
+	- shared pages
+- Hirachal paging
+- Hashed page tables
+- inverted page tables
+- Swapping

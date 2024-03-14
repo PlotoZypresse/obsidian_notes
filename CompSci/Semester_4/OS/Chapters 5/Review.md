@@ -1,0 +1,22 @@
+- when is it relevvant for the scheduler to take a decison
+	- When ther is open processing power
+	- When process is switching between states or terminates
+- What scheduling criteria can we use?
+	- When the job comes in
+	- Job length
+	- expected next time
+	- CPU utilization
+	- turnaround time
+- Describe the schedling algorithms: FCFS, SJf, Shortest remaining time first, RR
+	- First in first out as name implies
+	- Shortes job first
+- Describe Priority scheduling and aging
+	- Priority schedluing is when the jobs have a priority and we pick the highest prob first
+	- aging is when over time a job that has a low priority has to wait a long time it gets a priority invcrease.
+- What is the difference between Aymetric and Symetric multiprocessing
+	- asymetric is where one processor acceses the systems data structures, no need for datasharing
+	- SMP each processor is self scheduling all process in common ready queue
+- What is a memory stall
+	- when the cpu only runs io processes and no cpu heavy processes
+- Describe Rate monotonic schedluing and earliest deadline first scheduling
+	- 
