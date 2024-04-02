@@ -1,0 +1,14 @@
+- In which stages can adress binding happen?
+	- at compile time, at program startup time,
+- what is a relocation register
+- Describe dynamic loading and dynamic linking
+	- linking at execution time
+- descirbe swapping and the backing stores role 
+	- swapping is when memory pages are stored on disc to free up memory
+	- 
+- describe some algorithms for the dynamic storage-allocation problelm
+	- first fit, best fit, worst fit
+- differnce between external and internal fragmentation?
+	- When memory pages are allocated to a process the process can not fill out the page completly(internal fragmentation) or the space between pages can be so small that no other process can use it(externak fragmentaion)
+- describe paging
+	-  instead off accesing every bit of memory the memory is made up of pages that get allocated to processes

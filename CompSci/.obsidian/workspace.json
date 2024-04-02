@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester_4/OS/Chapters 9/Etime.md",
+                "file": "Semester_4/OS/Chapters 9/Review.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester_4/OS/Chapters 9/Etime.md",
+                "file": "Semester_4/OS/Chapters 9/Review.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semester_4/OS/Chapters 9/Etime.md",
+                "file": "Semester_4/OS/Chapters 9/Review.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semester_4/OS/Chapters 9/Etime.md"
+                "file": "Semester_4/OS/Chapters 9/Review.md"
               }
             }
           }
@@ -150,8 +150,8 @@
   },
   "active": "d7ac70730ffd8085",
   "lastOpenFiles": [
-    "Semester_4/OS/img/Screenshot 2024-03-14 at 14.25.39.png",
     "Semester_4/OS/Chapters 9/Etime.md",
+    "Semester_4/OS/img/Screenshot 2024-03-14 at 14.25.39.png",
     "Semester_4/OS/img/Screenshot 2024-03-14 at 17.41.40.png",
     "Semester_4/OS/img/Screenshot 2024-03-14 at 17.41.28.png",
     "Semester_4/OS/img/Screenshot 2024-03-14 at 17.41.14.png",
@@ -161,7 +161,6 @@
     "Semester_4/OS/img/Screenshot 2024-03-14 at 17.36.20.png",
     "Semester_4/OS/img/Screenshot 2024-03-14 at 17.30.20.png",
     "Semester_4/OS/img/Screenshot 2024-03-14 at 17.27.41.png",
-    "Semester_4/OS/img/Screenshot 2024-03-14 at 17.11.41.png",
     "Semester_4/OS/ExamTopics/Main Memory.md",
     "Semester_4/OS/ExamTopics/Synchronization Tools and Synchronization Examples.md",
     "Semester_4/OS/Chapters 9/Review.md",
