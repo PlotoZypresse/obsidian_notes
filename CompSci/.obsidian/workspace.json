@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "cc349568494a2687",
+        "id": "32c3a1fcb3833285",
         "type": "tabs",
         "children": [
           {
-            "id": "d7ac70730ffd8085",
+            "id": "ddfb5087f81ab8e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester_4/OS/Chapters 9/Review.md",
+                "file": "Semester_4/AvanAlgo/Exam/Network Flows.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3cc28e2c37c1df83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Semester_4/AvanAlgo/Exam/Universal and Perfect Hashing.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester_4/OS/Chapters 9/Review.md",
+                "file": "Semester_4/AvanAlgo/Exam/Universal and Perfect Hashing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semester_4/OS/Chapters 9/Review.md",
+                "file": "Semester_4/AvanAlgo/Exam/Universal and Perfect Hashing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,12 +138,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semester_4/OS/Chapters 9/Review.md"
+                "file": "Semester_4/AvanAlgo/Exam/Universal and Perfect Hashing.md"
               }
+            }
+          },
+          {
+            "id": "5cc6184ded78fb4e",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -145,11 +166,41 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-day-planner:Timeline": false
     }
   },
-  "active": "d7ac70730ffd8085",
+  "active": "3cc28e2c37c1df83",
   "lastOpenFiles": [
+    "Semester_4/AvanAlgo/Exam/String Matching.md",
+    "Semester_4/AvanAlgo/Exam/Universal and Perfect Hashing.md",
+    "Screenshot 2024-05-29 at 16.51.29.png",
+    "Semester_4/AvanAlgo/Exam/Network Flows.md",
+    "Semester_4/AvanAlgo/Exam/Randomized Algorithms.md",
+    "Semester_4/AvanAlgo/Exam/Amortized Analysis.md",
+    "Semester_4/AvanAlgo/Exam/Online Algorithms.md",
+    "Untitled.md",
+    "Semester_4/AvanAlgo/img/Screenshot 2024-05-28 at 20.47.24.png",
+    "Semester_4/AvanAlgo/img/Screenshot 2024-05-28 at 17.20.55.png",
+    "Semester_4/AvanAlgo/Notes/S12.pdf",
+    "Semester_4/AvanAlgo/Notes/S11.pdf",
+    "Semester_4/AvanAlgo/Notes/N10.pdf",
+    "Semester_4/AvanAlgo/Notes/AvanAlgoLecture8-9.pdf",
+    "Semester_4/AvanAlgo/Notes/AvanAlgoLecture7.pdf",
+    "Semester_4/AvanAlgo/Notes/AvanAlgoLecture6.pdf",
+    "Semester_4/AvanAlgo/Notes/AvanAlgoLecture5.pdf",
+    "Semester_4/AvanAlgo/Notes/AvanAlgoLecture3-4.pdf",
+    "Semester_4/AvanAlgo/Notes/AvanAlgoLecture1-2.pdf",
+    "Semester_4/AvanAlgo/Notes",
+    "Semester_4/AvanAlgo/MaxFlow/Augmenting path.md",
+    "Semester_4/Concurrency/Videos.md",
+    "().md",
+    "Semester_4/OS/Assignment 3.md",
+    "Semester_4/AvanAlgo/Untitled.md",
+    "Projects/Chess Game.md",
+    "2024-04-16.md",
+    "2024-04-15.md",
+    "Semester_4/OS/Chapters 9/Review.md",
     "Semester_4/OS/Chapters 9/Etime.md",
     "Semester_4/OS/img/Screenshot 2024-03-14 at 14.25.39.png",
     "Semester_4/OS/img/Screenshot 2024-03-14 at 17.41.40.png",
@@ -158,43 +209,14 @@
     "Semester_4/OS/img/Screenshot 2024-03-14 at 17.39.35.png",
     "Semester_4/OS/img/Screenshot 2024-03-14 at 17.37.52.png",
     "Semester_4/OS/img/Screenshot 2024-03-14 at 17.37.01.png",
-    "Semester_4/OS/img/Screenshot 2024-03-14 at 17.36.20.png",
-    "Semester_4/OS/img/Screenshot 2024-03-14 at 17.30.20.png",
-    "Semester_4/OS/img/Screenshot 2024-03-14 at 17.27.41.png",
     "Semester_4/OS/ExamTopics/Main Memory.md",
     "Semester_4/OS/ExamTopics/Synchronization Tools and Synchronization Examples.md",
-    "Semester_4/OS/Chapters 9/Review.md",
     "Semester_4/OS/Chapters 8/Etime.md",
     "Semester_4/OS/Chapters 8/Review.md",
     "Semester_4/OS/Chapters 6-7/Review.md",
     "Semester_4/OS/Chapters 6-7/Etime.md",
     "Semester_4/OS/Chapters 5/E-time.md",
     "Semester_4/AvanAlgo/Etimer/29.02.md",
-    "Semester_4/OS/Chapters 5/Review.md",
-    "Semester_4/AvanAlgo/Etimer",
-    "Semester_4/OS/ExamTopics/CPU scheduling.md",
-    "Semester_4/OS/ExamTopics/Virtual Machines.md",
-    "Semester_4/OS/ExamTopics/Security and Protection.md",
-    "Semester_4/OS/ExamTopics/File-System Implementation, File System Internals, and IO Systems.md",
-    "Semester_4/OS/ExamTopics/File System Interface.md",
-    "Semester_4/OS/ExamTopics/Mass-Storage Systems.md",
-    "Semester_4/OS/ExamTopics/Virtual-Memory.md",
-    "Semester_4/OS/ExamTopics/Deadlocks.md",
-    "Semester_4/OS/Chapters 18/Review.md",
-    "Semester_4/OS/Chapters 16+17/Review.md",
-    "Semester_4/OS/Chapters 13/Review.md",
-    "Semester_4/OS/Chapters 12+14+15/Review.md",
-    "Semester_4/OS/Chapters 10/Review.md",
-    "Semester_4/OS/Lectures/Lesson 1 06.02.md",
-    "Semester_4/OS/Chapters 18",
-    "Semester_4/OS/Chapters 16+17",
-    "Semester_4/OS/Chapters 12+14+15",
-    "Semester_4/OS/Chapters 13",
-    "Semester_4/OS/Chapters 11",
-    "Semester_4/OS/Chapters 10",
-    "Semester_4/OS/Chapters 9",
-    "Semester_4/OS/Chapters 8",
-    "Semester_4/OS/Chapters 6-7",
     "Untitled.canvas"
   ]
 }

@@ -1,0 +1,10 @@
+- [x] Refresh on generics and lambda expressions
+- [x] Streams
+- [x] Introduction to Threads
+- [x] Sharing and Composition
+- [x] More on sharing, and word streams
+- [x] Spinlocks and efficiency
+- [x] Directory walking, latches, waiting, and executors
+- [x] Futures and CompletionService
+- [x] Working in parallel with streams
+- [ ] Virtual threads

@@ -1,0 +1,40 @@
+{
+  "snapStepMinutes": 10,
+  "progressIndicator": "bar",
+  "showTaskNotification": true,
+  "zoomLevel": 2,
+  "timelineIcon": "calendar-with-checkmark",
+  "endLabel": "All done",
+  "startHour": 6,
+  "timelineDateFormat": "DD-MM-YYYY",
+  "centerNeedle": false,
+  "plannerHeading": "Day planner",
+  "plannerHeadingLevel": 1,
+  "timelineColored": false,
+  "timelineStartColor": "#006466",
+  "timelineEndColor": "#4d194d",
+  "timestampFormat": "HH:mm",
+  "hourFormat": "H",
+  "dataviewSource": "",
+  "extendDurationUntilNext": false,
+  "defaultDurationMinutes": 30,
+  "showTimestampInTaskBlock": false,
+  "showUncheduledTasks": true,
+  "showUnscheduledNestedTasks": true,
+  "showNow": true,
+  "showNext": true,
+  "pluginVersion": "0.20.3",
+  "showCompletedTasks": true,
+  "showSubtasksInTaskBlocks": true,
+  "icals": [
+    {
+      "name": "ItsLearning",
+      "url": "sdu.itslearning.com/Calendar/CalendarFeed.ashx?LocationType=3&LocationID=0&PersonId=455318&CustomerId=900937&ChildId=0&Guid=19bf5236c383e141bf4269c4de10f363&Culture=en-GB&FavoriteOnly=True",
+      "color": "#00bfff"
+    }
+  ],
+  "colorOverrides": [],
+  "editMode": "simple",
+  "copyOnDrag": false,
+  "releaseNotes": true
+}
