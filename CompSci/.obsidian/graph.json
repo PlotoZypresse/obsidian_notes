@@ -20,6 +20,13 @@
         "a": 1,
         "rgb": 14069084
       }
+    },
+    {
+      "query": "path:Semester_4  ",
+      "color": {
+        "a": 1,
+        "rgb": 11392604
+      }
     }
   ],
   "collapse-display": true,
@@ -32,6 +39,6 @@
   "repelStrength": 8.2666015625,
   "linkStrength": 0.976888020833333,
   "linkDistance": 30,
-  "scale": 0.49423953761310835,
-  "close": true
+  "scale": 0.38101808806998577,
+  "close": false
 }

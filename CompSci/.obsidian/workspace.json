@@ -8,31 +8,28 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ddfb5087f81ab8e2",
+            "id": "3cc28e2c37c1df83",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Semester_4/AvanAlgo/Exam/Network Flows.md",
-                "mode": "source",
-                "source": false
+                "file": "Semester_4/AvanAlgo/Exam/Gustav notes/436427737_8084260701605003_2524685109354987286_n.jpg"
               }
             }
           },
           {
-            "id": "3cc28e2c37c1df83",
+            "id": "559ea1c68334d537",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester_4/AvanAlgo/Exam/Universal and Perfect Hashing.md",
+                "file": "Semester_4/AvanAlgo/Exam/String Matching.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester_4/AvanAlgo/Exam/Universal and Perfect Hashing.md",
+                "file": "Semester_4/AvanAlgo/Exam/Gustav notes/436427737_8084260701605003_2524685109354987286_n.jpg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semester_4/AvanAlgo/Exam/Universal and Perfect Hashing.md",
+                "file": "Semester_4/AvanAlgo/Exam/Gustav notes/436427737_8084260701605003_2524685109354987286_n.jpg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semester_4/AvanAlgo/Exam/Universal and Perfect Hashing.md"
+                "file": "Semester_4/AvanAlgo/Exam/Gustav notes/436427737_8084260701605003_2524685109354987286_n.jpg"
               }
             }
           },
@@ -172,16 +169,36 @@
   },
   "active": "3cc28e2c37c1df83",
   "lastOpenFiles": [
+    "Semester_4/AvanAlgo/Exam/Gustav notes/441491165_379738877870051_1707173878654244354_n.jpg",
+    "Semester_4/AvanAlgo/Exam/Gustav notes/445381933_1133984090992483_5040112151364381213_n.jpg",
+    "Semester_4/AvanAlgo/Exam/Gustav notes/445782406_767978618654235_4590580825811783607_n.jpg",
+    "Semester_4/AvanAlgo/Exam/Gustav notes/445822032_26027284113552390_1234469269380048286_n.jpg",
+    "Semester_4/AvanAlgo/Exam/Gustav notes/445861185_1549034995968984_6917739778154201081_n.jpg",
+    "Semester_4/AvanAlgo/Exam/Gustav notes/436427737_8084260701605003_2524685109354987286_n.jpg",
     "Semester_4/AvanAlgo/Exam/String Matching.md",
-    "Semester_4/AvanAlgo/Exam/Universal and Perfect Hashing.md",
-    "Screenshot 2024-05-29 at 16.51.29.png",
+    "Semester_4/AvanAlgo/Exam/Gustav notes/Untitled.md",
+    "Semester_4/AvanAlgo/Exam/Gustav notes",
+    "Semester_4/AvanAlgo/Exam/Big O.md",
+    "Semester_4/AvanAlgo/img/IMG_7539B72E5DEF-1.jpeg",
+    "Semester_4/AvanAlgo/img/IMG_1430.jpg",
     "Semester_4/AvanAlgo/Exam/Network Flows.md",
+    "Semester_4/AvanAlgo/Exam/extras/transition function.md",
+    "Semester_4/AvanAlgo/img/Screenshot 2024-06-03 at 10.35.22.png",
+    "Semester_4/AvanAlgo/img/Screenshot 2024-06-03 at 10.35.09.png",
+    "Semester_4/AvanAlgo/Exam/extras/suffix Function example.md",
+    "Semester_4/AvanAlgo/Exam/Online Algorithms.md",
     "Semester_4/AvanAlgo/Exam/Randomized Algorithms.md",
     "Semester_4/AvanAlgo/Exam/Amortized Analysis.md",
-    "Semester_4/AvanAlgo/Exam/Online Algorithms.md",
-    "Untitled.md",
-    "Semester_4/AvanAlgo/img/Screenshot 2024-05-28 at 20.47.24.png",
-    "Semester_4/AvanAlgo/img/Screenshot 2024-05-28 at 17.20.55.png",
+    "Semester_4/AvanAlgo/Exam/Universal and Perfect Hashing.md",
+    "Semester_4/AvanAlgo/Exam/extras/edmonds karp.md",
+    "Semester_4/AvanAlgo/Exam/extras/further multipop.md",
+    "Semester_4/OS/Chapters 1-2/Review.md",
+    "Semester_4/OS/Chapters 1-2/Etime 09.02 chapter 1 and 2.md",
+    "Semester_4/AvanAlgo/MaxFlow/Augmenting path.md",
+    "Semester_4/AvanAlgo/MaxFlow/Residual networks.md",
+    "Semester_4/AvanAlgo/MaxFlow/Chapter 24 Max Flow.md",
+    "Semester_4/AvanAlgo/Exam/extras/Potential function telescope.md",
+    "Semester_4/AvanAlgo/Exam/extras",
     "Semester_4/AvanAlgo/Notes/S12.pdf",
     "Semester_4/AvanAlgo/Notes/S11.pdf",
     "Semester_4/AvanAlgo/Notes/N10.pdf",
@@ -190,9 +207,6 @@
     "Semester_4/AvanAlgo/Notes/AvanAlgoLecture6.pdf",
     "Semester_4/AvanAlgo/Notes/AvanAlgoLecture5.pdf",
     "Semester_4/AvanAlgo/Notes/AvanAlgoLecture3-4.pdf",
-    "Semester_4/AvanAlgo/Notes/AvanAlgoLecture1-2.pdf",
-    "Semester_4/AvanAlgo/Notes",
-    "Semester_4/AvanAlgo/MaxFlow/Augmenting path.md",
     "Semester_4/Concurrency/Videos.md",
     "().md",
     "Semester_4/OS/Assignment 3.md",
@@ -200,23 +214,6 @@
     "Projects/Chess Game.md",
     "2024-04-16.md",
     "2024-04-15.md",
-    "Semester_4/OS/Chapters 9/Review.md",
-    "Semester_4/OS/Chapters 9/Etime.md",
-    "Semester_4/OS/img/Screenshot 2024-03-14 at 14.25.39.png",
-    "Semester_4/OS/img/Screenshot 2024-03-14 at 17.41.40.png",
-    "Semester_4/OS/img/Screenshot 2024-03-14 at 17.41.28.png",
-    "Semester_4/OS/img/Screenshot 2024-03-14 at 17.41.14.png",
-    "Semester_4/OS/img/Screenshot 2024-03-14 at 17.39.35.png",
-    "Semester_4/OS/img/Screenshot 2024-03-14 at 17.37.52.png",
-    "Semester_4/OS/img/Screenshot 2024-03-14 at 17.37.01.png",
-    "Semester_4/OS/ExamTopics/Main Memory.md",
-    "Semester_4/OS/ExamTopics/Synchronization Tools and Synchronization Examples.md",
-    "Semester_4/OS/Chapters 8/Etime.md",
-    "Semester_4/OS/Chapters 8/Review.md",
-    "Semester_4/OS/Chapters 6-7/Review.md",
-    "Semester_4/OS/Chapters 6-7/Etime.md",
-    "Semester_4/OS/Chapters 5/E-time.md",
-    "Semester_4/AvanAlgo/Etimer/29.02.md",
     "Untitled.canvas"
   ]
 }

@@ -144,8 +144,156 @@ By using Breadht first search to find an augemnting path in the residual network
 To prove this the analysis relies on the distances to verticies in the residual networ $G_f$.
 $\delta_f(u,v)$ denotes the shortest path from u to v in $G_f$ and each edge has unit distance.
 
+#### Analysis
+Sure, let's combine the intuitive explanation with the mathematical notation.
 
-### Bipartheit Matching
+#### Lemma 24.7
+**Statement**: If the Edmonds-Karp algorithm is run on a flow network $G = (V, E)$ with source $s$ and sink $t$, then for all vertices $v \in V - \{s, t\}$, the shortest-path distance $\delta_f (s, v)$ in the residual network $G_f$ increases monotonically with each flow augmentation.
 
+#### Proof
+The proof uses a "proof by contradiction" approach.
+
+1. **Assumption**: Suppose there exists a flow augmentation that causes the shortest-path distance from $s$ to some vertex $v \in V - \{s, t\}$ to decrease. 
+
+2. Let $f$ be the flow just before this augmentation and $f'$ be the flow just afterward. Let $v$ be the vertex with the minimum $\delta_{f'}(s, v)$ whose distance was decreased by the augmentation, so that $\delta_{f'} (s, v) < \delta_f (s, v)$.
+
+3. Let $p = s \rightsquigarrow u \rightarrow v$ be a shortest path from $s$ to $v$ in $G_{f'}$, so that $(u, v) \in E_{f'}$ and
+   $$
+   \delta_{f'} (s, u) = \delta_{f'} (s, v) - 1.
+   $$
+
+4. Because $v$ was chosen with the minimum decreased distance, we know that the distance of vertex $u$ from the source $s$ did not decrease, that is,
+   $$
+   \delta_{f'} (s, u) \geq \delta_f (s, u).
+   $$
+
+5. We claim that $(u, v) \notin E_f$. Why? If we have $(u, v) \in E_f$, then we also have
+   $$
+   \begin{split}
+   \delta_f (s, v) \leq \delta_f (s, u) + 1 \quad \text{(by Lemma 22.10, the triangle inequality)} \\
+   \leq \delta_f (s, u) + 1 \quad \text{(by inequality (24.12))} \\
+   = \delta_f (s, v) \quad \text{(by equation (24.11))},
+   \end{split}
+   $$
+   which contradicts our assumption that $\delta_{f'} (s, v) < \delta_f (s, v)$.
+
+6. **Flow Augmentation Effects**: How can we have $(u, v) \notin E_f$ and $(u, v) \in E_{f'}$? The augmentation must have increased the flow from $v$ to $u$, so that edge $(v, u)$ was in the augmenting path. The augmenting path was a shortest path from $s$ to $t$ in $G_f$, and since any subpath of a shortest path is itself a shortest path, this augmenting path includes a shortest path from $s$ to $u$ in $G_f$ that has $(v, u)$ as its last edge. Therefore,
+   $$
+   \begin{split}
+   \delta_f (s, v) = \delta_f (s, u) - 1 \\
+   \leq \delta_f (s, u) - 1 \quad \text{(by inequality (24.12))} \\
+   = \delta_f (s, v) - 2 \quad \text{(by equation (24.11))},
+   \end{split}
+   $$
+   
+   so that $\delta_f (s, v) > \delta_f (s, v)$, contradicting our assumption that $\delta_{f'} (s, v) < \delta_f (s, v)$.
+
+7. **Conclusion**: We conclude that our assumption that such a vertex $v$ exists is incorrect.
+
+Thus, the shortest-path distance $\delta_f (s, v)$ in the residual network $G_f$ increases monotonically with each flow augmentation.
+
+### Bipartite Matching
+
+**Definition:**
+Bipartite matching is a problem where we aim to find the maximum matching in a bipartite graph. A bipartite graph is a graph whose vertices can be divided into two disjoint sets $U$ and $V$ such that every edge connects a vertex in $U$ to a vertex in $V$. There are no edges between vertices within the same set.
+
+**Application:**
+Bipartite matching has applications in various fields, such as job assignments (matching applicants to jobs), network switching, and pairing problems in markets or networks.
+
+**Maximum Bipartite Matching:**
+The goal is to find the largest possible set of edges such that no two edges share a vertex. This set is called a maximum matching.
+
+**Reduction to Flow Network:**
+Bipartite matching can be solved using network flow algorithms by transforming the bipartite graph into a flow network:
+1. **Construct the Flow Network:**
+   - Add a source vertex $s$.
+   - Add a sink vertex $t$.
+   - Connect the source $s$ to each vertex in set $U$ with an edge of capacity 1.
+   - Connect each vertex in set $V$ to the sink $t$ with an edge of capacity 1.
+   - For each edge $(u, v)$ in the bipartite graph (where $u \in U$ and $v \in V$), add an edge with capacity 1.
+
+2. **Apply Maximum Flow Algorithm:**
+   - Use the Ford-Fulkerson or Edmonds-Karp algorithm to find the maximum flow from $s$ to $t$ in the constructed flow network.
+
+3. **Interpret the Flow:**
+   - The maximum flow value will correspond to the size of the maximum matching in the bipartite graph.
+   - The edges that carry flow in the resulting flow network correspond to the matched pairs in the bipartite graph.
+
+**Example:**
+Consider a bipartite graph with sets $U = \{A, B, C\}$ and $V = \{1, 2, 3\}$ and edges $\{(A,1), (A,2), (B,2), (C,2), (C,3)\}$.
+1. **Construct the Flow Network:**
+   - Add edges from $s$ to $A$, $B$, and $C$ with capacity 1.
+   - Add edges from $1$, $2$, and $3$ to $t$ with capacity 1.
+   - Add edges $(A,1)$, $(A,2)$, $(B,2)$, $(C,2)$, and $(C,3)$ with capacity 1.
+
+2. **Apply Maximum Flow Algorithm:**
+   - Find the maximum flow from $s$ to $t$.
+
+3. **Interpret the Flow:**
+   - The maximum flow value (e.g., 3) indicates the maximum number of matches.
+   - The edges carrying flow from $U$ to $V$ (e.g., $(A,1)$, $(B,2)$, $(C,3)$) represent the matched pairs.
+
+By transforming the bipartite matching problem into a maximum flow problem, we can leverage efficient flow algorithms to solve it. This approach ensures that we find the maximum number of matches in the bipartite graph.
 ## Notes
 ![[AvanAlgoLecture1-2.pdf]]
+
+
+## Plan
+
+Here's the outline formatted with inline and block math for easy copying into Obsidian:
+
+### Introduction (1 minute)
+1. **Definition of Flow Networks**
+   - Directed graph for material flows (e.g., fluids, electrical current)
+   - Source ($s$) and sink ($t$)
+
+### Flow Network Fundamentals (2 minutes)
+2. **Basic Components**
+   - Vertices ($V$) and Edges ($E$)
+   - Capacities $c(u,v)$
+
+3. **Properties**
+   - Flow conservation: $\sum_{v \in V} f(v,u) = \sum_{v \in V} f(u,v)$ for $u \neq s,t$
+   - Capacity constraint: $0 \leq f(u,v) \leq c(u,v)$
+
+### Maximum Flow Problem (1 minute)
+4. **Objective**
+   - Maximizing flow from source to sink
+
+### Ford-Fulkerson Method (3 minutes)
+5. **Overview**
+   - Initial flow set to zero
+   - Finding augmenting paths in the residual network
+   - Updating flow values iteratively
+
+6. **Residual Networks**
+   - Definition and significance
+   - Residual capacity $c_f(u,v)$
+
+### Key Concepts (2 minutes)
+7. **Flow Augmentation**
+   - Updating flow with augmenting paths
+   - Ensuring capacity constraints and flow conservation
+
+8. **Cuts in Flow Networks**
+   - Definition of a cut ($S, T$)
+   - Max-Flow Min-Cut Theorem: A flow is maximum if and only if no augmenting paths exist in the residual network
+
+### Algorithms (2 minutes)
+9. **Edmonds-Karp Algorithm**
+   - Uses breadth-first search for finding augmenting paths
+   - Runtime: $O(VE^2)$
+
+### Applications (1 minute)
+10. **Bipartite Matching**
+    - Example of practical use of flow networks
+
+### Conclusion (1 minute)
+11. **Summary**
+    - Key points: flow networks, Ford-Fulkerson method, residual networks, and Max-Flow Min-Cut Theorem
+    - Importance in various fields
+
+### Additional Tips:
+- Use one or two diagrams to illustrate key concepts like flow networks and residual networks.
+- Practice to ensure you can cover each section within the allocated time.
+- Be prepared to elaborate on any section if asked for more detail.
