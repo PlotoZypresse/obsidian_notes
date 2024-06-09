@@ -4,32 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "32c3a1fcb3833285",
+        "id": "61fcb5379ac972cd",
         "type": "tabs",
         "children": [
           {
-            "id": "3cc28e2c37c1df83",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Semester_4/AvanAlgo/Exam/Gustav notes/436427737_8084260701605003_2524685109354987286_n.jpg"
-              }
-            }
-          },
-          {
-            "id": "559ea1c68334d537",
+            "id": "f859dd1bac80232d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester_4/AvanAlgo/Exam/String Matching.md",
+                "file": "Semester_4/DataMining/Exam.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "146829b9c2e55846",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Semester_4/DataMining/Lessons/Solutions/Exercise4_Hierarchical_Clustering_with_Solutions.pdf"
+              }
+            }
+          },
+          {
+            "id": "847b4f1d0e57e29f",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Semester_4/DataMining/Slides/Hierarchical_Clustering.pdf"
+              }
+            }
+          },
+          {
+            "id": "4d277b424b6ed88f",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Semester_4/DataMining/Lessons/Solutions/Exercise1_IntroR_Solutions.pdf"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -79,7 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5
+    "width": 219.5
   },
   "right": {
     "id": "1df06c811ca3ebea",
@@ -95,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester_4/AvanAlgo/Exam/Gustav notes/436427737_8084260701605003_2524685109354987286_n.jpg",
+                "file": "Semester_4/DataMining/Lessons/Solutions/Exercise1_IntroR_Solutions.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semester_4/AvanAlgo/Exam/Gustav notes/436427737_8084260701605003_2524685109354987286_n.jpg",
+                "file": "Semester_4/DataMining/Lessons/Solutions/Exercise1_IntroR_Solutions.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semester_4/AvanAlgo/Exam/Gustav notes/436427737_8084260701605003_2524685109354987286_n.jpg"
+                "file": "Semester_4/DataMining/Lessons/Solutions/Exercise1_IntroR_Solutions.pdf"
               }
             }
           },
@@ -167,53 +188,54 @@
       "obsidian-day-planner:Timeline": false
     }
   },
-  "active": "3cc28e2c37c1df83",
+  "active": "4d277b424b6ed88f",
   "lastOpenFiles": [
+    "Semester_4/DataMining/Lessons/Exercise/Exercise6_Density_Based_Clustering_Outlier_Detection.pdf",
+    "Semester_4/DataMining/Lessons/Solutions/Exercise6_Density_Based_Clustering_Outlier_Detection_with_Partial_Solutions.pdf",
+    "Semester_4/DataMining/Lessons/Solutions/Exercise3_Partitioning_Clustering_with_Solutions.pdf",
+    "Semester_4/DataMining/Lessons/Solutions/Exercise1_IntroR_Solutions.pdf",
+    "Semester_4/DataMining/Lessons/Exercise/Exercise7_Frequent_Itemsets_Association_Rules.pdf",
+    "Semester_4/DataMining/Lessons/Solutions/Exercise5_Density_Estimates_and_EM_GMM_with_Solutions.pdf",
+    "Semester_4/DataMining/Lessons/Solutions/Exercise4_Hierarchical_Clustering_with_Solutions.pdf",
+    "Semester_4/DataMining/Lessons/Solutions/Exercise3_Partitioning_Clustering_with_Solutions 1.pdf",
+    "Semester_4/DataMining/Exam.md",
+    "Semester_4/DataMining/Slides/Hierarchical_Clustering.pdf",
+    "Semester_4/DataMining/Lessons/Exercise/Exercise4_Hierarchical_Clustering.pdf",
+    "Semester_4/DataMining/Slides/Clustering_Introduction_and_Partitioning.pdf",
+    "Semester_4/DataMining/Notes/Variables.md",
+    "Semester_4/DataMining/Notes/Covariance.md",
+    "Semester_4/DataMining/Notes/Dissimilarity Numeric Varaibles.md",
+    "Semester_3/ML/Lesson 5-6-7/Random Variables.md",
+    "Semester_4/DataMining/img/Screenshot 2024-06-07 at 12.05.24.png",
+    "Semester_4/DataMining/Lessons/Untitled.md",
+    "Semester_4/AvanAlgo/Exam/String Matching.md",
     "Semester_4/AvanAlgo/Exam/Gustav notes/441491165_379738877870051_1707173878654244354_n.jpg",
+    "Semester_4/AvanAlgo/Exam/Amortized Analysis.md",
+    "Semester_4/AvanAlgo/Exam/Gustav notes/436427737_8084260701605003_2524685109354987286_n.jpg",
+    "Semester_4/AvanAlgo/Exam/Network Flows.md",
+    "Semester_4/AvanAlgo/Exam/extras/further multipop.md",
+    "Semester_4/AvanAlgo/Exam/Randomized Algorithms.md",
+    "Semester_4/AvanAlgo/Exam/Online Algorithms.md",
     "Semester_4/AvanAlgo/Exam/Gustav notes/445381933_1133984090992483_5040112151364381213_n.jpg",
     "Semester_4/AvanAlgo/Exam/Gustav notes/445782406_767978618654235_4590580825811783607_n.jpg",
     "Semester_4/AvanAlgo/Exam/Gustav notes/445822032_26027284113552390_1234469269380048286_n.jpg",
     "Semester_4/AvanAlgo/Exam/Gustav notes/445861185_1549034995968984_6917739778154201081_n.jpg",
-    "Semester_4/AvanAlgo/Exam/Gustav notes/436427737_8084260701605003_2524685109354987286_n.jpg",
-    "Semester_4/AvanAlgo/Exam/String Matching.md",
     "Semester_4/AvanAlgo/Exam/Gustav notes/Untitled.md",
-    "Semester_4/AvanAlgo/Exam/Gustav notes",
-    "Semester_4/AvanAlgo/Exam/Big O.md",
+    "Semester_4/AvanAlgo/Exam/extras/Big O.md",
     "Semester_4/AvanAlgo/img/IMG_7539B72E5DEF-1.jpeg",
     "Semester_4/AvanAlgo/img/IMG_1430.jpg",
-    "Semester_4/AvanAlgo/Exam/Network Flows.md",
     "Semester_4/AvanAlgo/Exam/extras/transition function.md",
     "Semester_4/AvanAlgo/img/Screenshot 2024-06-03 at 10.35.22.png",
-    "Semester_4/AvanAlgo/img/Screenshot 2024-06-03 at 10.35.09.png",
     "Semester_4/AvanAlgo/Exam/extras/suffix Function example.md",
-    "Semester_4/AvanAlgo/Exam/Online Algorithms.md",
-    "Semester_4/AvanAlgo/Exam/Randomized Algorithms.md",
-    "Semester_4/AvanAlgo/Exam/Amortized Analysis.md",
     "Semester_4/AvanAlgo/Exam/Universal and Perfect Hashing.md",
     "Semester_4/AvanAlgo/Exam/extras/edmonds karp.md",
-    "Semester_4/AvanAlgo/Exam/extras/further multipop.md",
     "Semester_4/OS/Chapters 1-2/Review.md",
     "Semester_4/OS/Chapters 1-2/Etime 09.02 chapter 1 and 2.md",
     "Semester_4/AvanAlgo/MaxFlow/Augmenting path.md",
     "Semester_4/AvanAlgo/MaxFlow/Residual networks.md",
     "Semester_4/AvanAlgo/MaxFlow/Chapter 24 Max Flow.md",
     "Semester_4/AvanAlgo/Exam/extras/Potential function telescope.md",
-    "Semester_4/AvanAlgo/Exam/extras",
-    "Semester_4/AvanAlgo/Notes/S12.pdf",
-    "Semester_4/AvanAlgo/Notes/S11.pdf",
-    "Semester_4/AvanAlgo/Notes/N10.pdf",
-    "Semester_4/AvanAlgo/Notes/AvanAlgoLecture8-9.pdf",
-    "Semester_4/AvanAlgo/Notes/AvanAlgoLecture7.pdf",
-    "Semester_4/AvanAlgo/Notes/AvanAlgoLecture6.pdf",
-    "Semester_4/AvanAlgo/Notes/AvanAlgoLecture5.pdf",
-    "Semester_4/AvanAlgo/Notes/AvanAlgoLecture3-4.pdf",
     "Semester_4/Concurrency/Videos.md",
-    "().md",
-    "Semester_4/OS/Assignment 3.md",
-    "Semester_4/AvanAlgo/Untitled.md",
-    "Projects/Chess Game.md",
-    "2024-04-16.md",
-    "2024-04-15.md",
     "Untitled.canvas"
   ]
 }
