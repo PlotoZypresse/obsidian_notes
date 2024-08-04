@@ -1,0 +1,22 @@
+- [x] Operating-System Structures (Chapter 2) 
+	- [x] [[Operating-System Structures]]
+- [x] Processes and Threads and Concurrency(Chapter 3 and 4)
+	- [x] [[Processes, Threads and Concurrency]]
+- [x] CPU Scheduling (Chapter 5) Sunday
+	- [x] [[CPU scheduling]]
+- [x] Synchronization Tools and Synchronization Examples (Chapter 6 and 7) Sunday
+	- [x] [[Synchronization Tools and Synchronization Examples]]
+- [x] Deadlocks (Chapter 8) Sunday/Monday
+	- [x] [[Deadlocks]]
+- [x] Main Memory (Chapter 9) Monday
+	- [x] [[Main Memory]]
+- [x] Virtual Memory (Chapter 10) Monday/Tuesday
+	- [x] [[Virtual-Memory]]
+- [x] File System Interface, File-System Implementation, File System Internals (Chapter 13, 14, and 15) Tuesday
+	- [x] [[File System]]
+- [x] Mass Storage Systems and I/O Systems (Chapter 11 and 12)Tuesday
+	- [x] [[Mass-Storage Systems]]
+- [x] Security and Protection (Chapter 16 and 17) Tuesday/Wednesday
+	- [x] [[Security and Protection]]
+- [x] Virtualization (Chapter 18)Wednesday
+	- [ ] [[Virtual Machines]]

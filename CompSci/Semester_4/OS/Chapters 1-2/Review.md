@@ -4,14 +4,14 @@
 	- when the cpu recives an IO interrupt the interrupt vector is used to look up the code that needs to be executed for that interrupt
 	- array of adresses of the diffrent interrupt service routines
 - What is direct memory access
-	- Direct memory acces is when a program get direct acces to som part of the memory from the cpu so that the cpu doesnt get bombarded with sys calls for each memory access but only one when the program is done
-	- A deice controller transfers blocks of data from buffer storage directly to main memory without cpu intervention.  by duing so interrupt per block is needd
+	- Direct memory acces is when a program get direct access to some part of the memory from the cpu so that the cpu doesnt get bombarded with sys calls for each memory access but only one when the program is done
+	- A deice controller transfers blocks of data from buffer storage directly to main memory without cpu intervention.  by doing so only one interrupt per block is needd
 - What does the mode bit do?
 	- change between user and kernel mode
 - What is a system call
 	- programming interface with rwqus
 - What groups of system calls are there
-	- process controll file mainpulation device manipulation information maintenance, communications, protection
+	- process controll, file mainpulation, device manipulation, information maintenance, communications, protection
 - Why would you use a system call API
 	- Using APIs makes it easier for programming languages to be compatible with differnt os because their sys calls can be be different
 	- ease of use, doesnt need to know underlying structure

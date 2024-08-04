@@ -1,0 +1,121 @@
+- Processes
+- Process scheduling
+- Interproces communication
+	- IPC shared memory
+	- IPC message passing
+	- IPC systems
+	- Communication in client server
+- Multicore programming
+	- Multithreading models
+	- Implicit threading
+	- Threading issues
+	- threads
+- pipes 
+- concurrency 
+- paralism 
+
+
+- Processes and programs
+	- program are is the exe file stored on disc
+	- a program becomes a porcess when loaded into memory
+	- a program can be multiple processes
+	- Process memory is divided into multiplke sections
+	- ![[Screenshot 2024-06-15 at 14.05.44.png]]![[Screenshot 2024-06-15 at 14.05.54.png]]
+	- Process States
+		- New: the process is being created
+		- Running: Instructions are being executed
+		- Waiting: The process is waiting for some event to occur
+		- Ready: The process is waiting to be assigned to a processor
+		- Terminated: The process has finished execution
+		- ![[Screenshot 2024-06-15 at 14.17.36.png]]
+	- Process control block
+		- Each process in the OS is represented by a process control block (PCB).
+		- It contains many important informations about the process like:
+			- Process state
+			- Program counter: indicates the address of the next instruction
+			- CPU registers: The registers
+			- CPU scheduling information: Priority, pointers to scheduling queues
+			- Memory managment information: For example the value of the base and limit registers and the page tables
+			- Accounting info: amount of cpu or real time, time limits and so on
+			- I/O status information: List of I/O devices, list of open process or files
+	- Thread
+		- When a process is runnig a single thread of instructions is running
+- Process scheduling
+	- The goal is to maximize cpu usage.
+	- To make the device usable the cpu switches between processes frequently 
+	- To do this effectively we need a process scheduler
+	- The process scheduler selects the next process to be executed
+	- Process are put into a ready queue where they are ready and waiting to be processed by a cpu core
+	- when a process has to wait for something to happen for example IO it is placed in a wait queue. Thereby switrching to the waiting state. When the process switches to the ready state its put back into the ready queue
+	- ![[Screenshot 2024-06-15 at 14.46.15.png]]
+	- To prevent the cpu to only execute short processes or only long process the scheduler executes at least once every 100 miliseconds
+- CPU scheduling
+	- swapping
+		- remove a process from memory to ease the load on the cpu. Later the process can be "swapped" back into memory
+- Context switch
+	- When the cpu gets interrupted we need to save the current state of the cpu to continue computing after the interrupt is handeld. This is called a context switch. The CPU does a state save of the current CPU core state and then a state restore to resume operatuins
+	- A context switch is not that great as the cpu does not do any work when a context switch happens
+	- ![[Screenshot 2024-06-15 at 15.39.26.png]]
+- Pocess tree
+	- ![[Screenshot 2024-06-15 at 15.40.52.png]]
+
+- Interprocess Comunication
+	- Processes can be cooperating for example share data. 
+	- THese processes need to communitcate. This is done through interprocess communication
+	- The two fundamental methods are
+		- Shared memory
+			- Here a region of memory is shared by both processes
+			- They can exchange information through righting and reading
+		- message passing
+			- here communication tkaes place by exchanging messages
+				- Direct communication
+					- A process need to specify to wich process the message should be send
+					- A process has to specify from which process to recive a message
+				- Communication link
+					- A link between the processes that want to comunicate is established
+					- Symetric. sender and reciver must name the other
+				- Asymetric
+					- here only the sender specifies the process and the reciver gets a message from any process
+				- Indirect communication
+					- Mailboxes
+						- A sender now specifies a mailbox to put the message in. If a process wants to read from the other process it only needs access to the same mailbox
+		- ![[Screenshot 2024-06-15 at 16.26.06.png]]
+		- Syncronization
+			- ![[Screenshot 2024-06-15 at 18.11.16.png]]
+- Threads and Concurrency
+	- Concurrency exists when multiple threads are making process, parallelism exists when multiple threads are making proces at the same time
+	- A classic process has only one thread so it can ony do one thing at once(single Threaded)
+	- A multithreaded process has multiple threads. A web browser might have a thread for every open tab. Or on thread for graphics and one for keyboard input
+	- Every thread shares the code, data and files but ahs its own, registers, stack and Program counter
+	- THe Benefits of using more than one thread are obvius we can do more thing at once but this doesnt come without consequences.
+	- 
+![[Screenshot 2024-06-15 at 18.21.24.png]]
+![[Screenshot 2024-06-15 at 18.21.31.png]]
+- on single core systems we can only run one thread at a time. To give the illusion of running multiple threads at once we interleave the different threads
+- On multicore systems we can get paralelism. This is because we can actually execute two or even more threads at a time
+	- This comes with its own problems. So we need to think about what we do
+		- We need to find task that can be divided into seperate concurrent tasks that can be executed at the same time
+		- We need to find a good balance between spliting every task and splitting none
+		- We need to keep track of the data that is used and maybe split that
+		- And we need to be careful of data dependencies
+		- Testing and debugging can be a hassel because we do not schedule the threads so they can be executed in different orders everytime. Thus bugs can not always be reproducable
+- Amdahls Law
+	- This is a formula that identifies potential performance gains from additional computing cores
+$$
+speedup \leq \frac{1}{S+\frac{(1-S)}{N}}
+$$
+- Here S is the portion of the application that must be performed serially on a system with N processing core![[Screenshot 2024-06-15 at 18.35.47.png]]
+- Types of parallelism
+	- Data
+		- here we split up the data. If we had one core and want to sum and array we give it to the core. If we have two cores we can give one half to each core.
+	- Task
+		- Here we distribute tasks across multiple computing cores. For example could each thread do different statistical analysis of the data instead of running the analysis after each other
+- Models
+	- Many to one
+		- We have many threads in user space but only on kernel thread. THis gives us the limitation that all threads will block if one of them makes a blocking systemcall. This means that only one user thread at the time can access the kernal at a time. Not much use today
+	- One to one
+		- In this set up each user thread is mapped to a kernal thread. Eleminating the case that the system "stalls" when a user thread needs acces to kernel thread. So When a thread makes a blocking systemcall another thread can run. This methode also makes it possible to run multiple threads in parallel on multiprocessors. The drawback is that there can be a large number of kernel threads, this may burden performance
+	- Many to many
+		- Here we have may userlevel threads and an equal or smaller number of jerbek threads. so the number of kernel threads might differ between machines
+	- Two level model
+		- THe same as many to many but also the possibility to bound a user level thread to a kernel thread

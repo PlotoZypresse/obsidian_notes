@@ -1,0 +1,75 @@
+- Scheduling algorithms
+	- FCFS
+	- SJF
+	- RR
+	- Priority scheduling
+	- Multilevel queue scheduling
+	- Multilevel feedback queue scheduling
+- CPU
+	- I/O
+	- Scheduler
+	- Dispatcher
+- Scheduling Criteria
+- Thread Scheduling
+- Multi-Processor Scheduling
+- Real-Time scheduling
+- OS examples
+- Algorithm Evaluation
+- CPU IO burst cycles
+- Load balancing
+
+- Preemptive scheduling
+	- The process can be interrupted by another porcess. The process does not have to finish its cpu bursts and gets placed back in the waiting queue if it still has time remaining
+	- The drawback is that this can result in race conditions. Wile one process is updating data it can get preempted and another process can come in and update the same data. This results in wrong data
+- Nonpreemptive scheduling
+	- When the cpu gets allocated a process. The process occupies the CPU until it terminates or switches to a waiting state. The process does not get interrupted until its finished its cpu burst time
+- The dispatcher
+	- THe dispatcher gives control of the cpu to to the process that selected by the CPU scheduler. This involves the following
+		- Switching context from one process to another
+		- Switching to user mode
+		- Jumping to the proper location in the user programm to resume that program
+	- As the dispatcher is invoked during every context switch it has  to be as fast as possible
+- Schedling criteria:
+	- CPU utilization: In theory range from 0 to 100%. in real life 40% for light load  90% for heavy load
+	- Throughput: Number of process that are completed per time unit
+	- Turnaround time: Its the time from submission of the process to completion of the process
+	- Waiting time: The amount of time the process spends in the waiting queue
+	- Response Time: The time it takes for a process to respond
+- Scheduling algortihms
+	- FCFS
+		- The process that comes first is picked first. So if P1 comes first it gets run first this is managed by a FIFO queue. CPU burst time is not a quiteria for selection
+	- SJF
+		- The process with the shortest cpu burst time is picked as the name implies. If two processes have the same burst time we use FCFS to break the tioe
+		- SJF is provably optimal in regards to the minimum average waiting time for a set of processes. Movin a short process before a long process decreases the waiting time for the short process more than it increases the waiting time for the long process
+		- Not really implementable as we dont know the length of the next CPU burst
+		- We can "fix" this by approximating the next cpu burst by using the exponential average of the length of the previous cpu bursts. This is done by the following formula $$\tau_{n+1}=\alpha*t_n+(1-\alpha)\tau_n$$
+		- Here $\tau_{n+1}$ is the predicted value for the next cpu burst, $t_n$ is the length of the nth CPU burst and $\alpha$ is $0\leq \alpha \leq 1$. $\alpha$ controls the realtivve weight of recent and past history in our prediction. if $\alpha=0$ then recent history has no effect if $\alpha=1$ then only the most recent CPU bursts matter. With $\alpha=1/2$ recent and past history are weighted the same
+		- SJF can be preemptive or none preemptive. If a job arrives that is shorter than the remaining time on the running process a preemptive SJF will run the new job where as a nonpreemptive SJF will finsih the current job
+	- RR
+		- Round Robin is in very similar to FCFS but there is a key differnce. The difference is that we add preemption. We have a time quantum that gets defined beforehand for example 4 miliseconds. We the run normal FCFS but we only run the process for 1 time quantum. The process is then put into the wait queue again and the next process gets run. How good RR performes depends on the size of the time Quantum if the time quantum to large we end up with the same algorithm as FCFS if its to low we will have a lot of context switching killing performance
+	- Priority Scheduling
+		- In PS ever process gets a priority that could be the burst time like in SJF or just a value from 0 to 100 for example. In the most cases processes with a high priority have a low number. But this can differ between systems. PS just picks the highest priority first. PS can be preemptive or nonpreemptive just like SJF. So if a lower priority comes in preemptive PS stops the current process and runs the new one and nonpreemptive finishes the current one. 
+		- A problem with priority scheduling is that if there is a constant flow of high priority process high priority processes might starve and never get executed. THis can be fixed by aging. This is where processes that are not run with time get a lower priority 
+	- Multilevel queue scheduling
+		- Instead of having all processes in one queue we can give every priority its own queue so now we can just choose from the highestpriority queue each time and then move on to the next queue if the one before is empty
+	- Multilevel feedback queue scheduling
+		- Normaly processes do not move between queues. Here processes can move between queues. Processes are seperated by there cpu burst higer number lower priority. This emans that IO bound and interactive processes have high priority. Also processes that wait to long are moved up to a higher priority to prevent starvation
+- Multiprocessor scheduling
+	- asymetric multiprocessing
+		- as there only is one core that can access system datastructures its easy. THe other cores can only execute user code
+		- With this bottleneck performance may be hampered
+- Symetric Multiprocessing
+	- Two strategies
+		- ALl threads may be in a common ready queue
+		- Each processor has its own private queue of threads![[Screenshot 2024-06-17 at 12.35.23.png]]
+		- With a shared run queue we would need some form of locking to protect the common ready queue from race condtitons. As accessing the queue would require lock ownership this would probably result in a performance bottleneck
+		- The seconda approach does not have these problems as each core has its own ready queue. A new problem is though how to equal out the workload between processors
+			- THis is done by Push or pull Migration
+				- Push migration periodicaly checks the load on each processor and if it finds an imbalance it redistributes the workload
+				- Pull migration occures when a processor is idle and pulls a waiting task from a busy processor
+	- When a processor accesses memory it spends a significant amount of time waiting on the data. To mitigate this we use hardware threads. THis emans that every core has two hardware threads. THis is done so that if one thread is waiting on data the other can run normal thus increasing performance. THis is also called multithreading![[Screenshot 2024-06-17 at 12.42.43.png]]
+	- ![[Screenshot 2024-06-17 at 12.42.54.png]]
+	- ![[Screenshot 2024-06-17 at 12.43.13.png]]
+	- 
+![[Screenshot 2024-06-17 at 12.50.35.png]]
+![[Screenshot 2024-06-17 at 12.51.16.png]]
